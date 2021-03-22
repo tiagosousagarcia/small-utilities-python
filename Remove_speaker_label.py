@@ -1,17 +1,25 @@
 #Quick and dirty way of cleaning automatically generated subtitle files for the ATNU speaker series
 
-#read original vtt file
-subtitles_original = open("GMT20210223-170445_ATNU-IES-V.transcript.vtt", "r")
-#put text into string
-text = subtitles_original.read()
-#close original file
-subtitles_original.close()
+#NEXT STEP: Make it run from command line
 
-#replace moderator name with nothing
-text = text.replace('James Cummings: ', '')
+def removeSpeakerLabel(fileName, *labelTuple):
+    #Error control: if there is no filename, or the filename is not the first argument
+    if fileName.endswith(".vtt") == False:
+        raise Exception("The first argument must be a file name, ending with the .vtt extension")
+    #Error control: if there is nothing to remove from the file
+    if len(labelTuple) == 0:
+        raise Exception("There's nothing to remove: make sure to indicate the file name and the string(s) to be removed")
+    
+    original = open(fileName, "r")
+    text = original.read()
+    original.close()
+    
+    for label in labelTuple:
+        text = text.replace(label, "")
+    return text
 
-#replace speaker name with nothing
-text = text.replace('Mike Kestemont: ', '')
+#Function takes the file name and at least one label to remove
+text = removeSpeakerLabel("GMT20210223-170445_ATNU-IES-V.transcript.vtt", "James Cummings: ", "Mike Kestemont: ")
 
 #create new file and write clean subtitles to it
 final_file = open("clean_subtitles.vtt", 'w')

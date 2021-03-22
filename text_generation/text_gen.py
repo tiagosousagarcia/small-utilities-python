@@ -12,8 +12,8 @@ tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
 model = GPT2LMHeadModel.from_pretrained('gpt2')
 
 #add input and tokenise it
-sequence = 'There once was a man from Nantucket'
-inputs = tokenizer.encode(sequence, return_tensors = 'pt')
+prompt = 'There was nothing behind the door. Ingrid couldn’t believe it ended here.'
+inputs = tokenizer.encode(prompt, return_tensors = 'pt')
 
 #generate -- output is a series of indices
 outputs = model.generate(inputs, max_length = 50, do_sample = True, temperature = .7, top_k = 50)
