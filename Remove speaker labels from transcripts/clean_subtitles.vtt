@@ -1,898 +1,762 @@
 WEBVTT
 
 1
-00:00:04.980 --> 00:00:15.719
-hi everyone and welcome to another in our series of new animating texts Newcastle university series of virtual visiting speakers.
+00:00:03.629 --> 00:00:09.870
+hi everyone and welcome to our latest at new virtual visiting speaker.
 
 2
-00:00:17.100 --> 00:00:21.540
-This week, this week, this month even we have.
+00:00:11.070 --> 00:00:22.140
+This week we have well this week, this month we have Dr Laura Estill i'm Dr Laura Estill is an associate professor of English at St Francis Xavier University in Canada.
 
 3
-00:00:22.770 --> 00:00:26.910
-My testimony who comes to us from the Department of mixture at the University of Antwerp.
+00:00:22.500 --> 00:00:41.970
+And holds a prestigious tier to Canada research chair and digital humanities Recent publications that at least I remember include dramatic extracts in the 17th century English manuscripts as well as an edited collection of early British drama in manuscript which cannot.
 
 4
-00:00:28.080 --> 00:00:35.550
-And where he's an assistant Professor there, and he does lots of courses on corporate computational linguistics.
+00:00:44.100 --> 00:00:44.550
+I think.
 
 5
-00:00:37.320 --> 00:00:44.340
-All sorts of things of programming for the vanity of the default philology and that kind of stuff and what i'd like is in one of his bio somewhere on the web, he says.
+00:00:45.840 --> 00:00:47.700
+she's previously a Co editor of the.
 
 6
-00:00:44.610 --> 00:00:59.580
-I code in Python tweet in English and live in Brussels, which I thought was a good way of saying tonight he's going to be talking talking to us about estimating the loss of medieval literature, with the methods from ecology Mike.
+00:00:47.700 --> 00:01:03.300
+World shake for bibliography she's also co editor of early modern digital review and decks a database of dramatic extracts and today she's going to be talking to us about using digital resources in the Shakespeare class for crystal.
 
 7
-00:01:00.900 --> 00:01:01.440
-Leaving.
+00:01:04.860 --> 00:01:14.790
+Thank you, Dr Cummings and thank you for that kind introduction and everyone for joining us today and what I know is a busy time of term and an odd time of our lives.
 
 8
-00:01:01.500 --> 00:01:02.130
-Everyone.
+00:01:15.930 --> 00:01:26.790
+i'm currently speaking to you from mcgee mcgee, which is the ancestral and unseated territory of the mid market people in Nova Scotia Canada, but my story doesn't actually start in Nova Scotia.
 
 9
-00:01:03.930 --> 00:01:07.020
-sharing my screen Now let me know if that wouldn't work.
+00:01:27.930 --> 00:01:37.080
+My story starts when I was an undergraduate in Ontario I had a research assistantship for Professor Carol Davison who was working on a book on Gothic literature's.
 
 10
-00:01:09.480 --> 00:01:10.440
-Here we go.
+00:01:37.410 --> 00:01:47.940
+My job was to go to the basement of the lady library at the University of Windsor Canada and scroll through microfilm to take copies of reviews of Gothic novels.
 
 11
-00:01:14.430 --> 00:01:22.920
-So, welcome to the stock on estimating the loss of medieval literature indeed with methods from ecology and.
+00:01:48.780 --> 00:01:57.720
+Nowadays, however, that research assistantship would have been entirely different these reviews are available and tons of digital resources.
 
 12
-00:01:24.570 --> 00:01:33.480
-What we will focus on today is historic, literature and, more specifically, historic literature that did not survive from the Middle Ages.
+00:01:57.960 --> 00:02:06.540
+For many humanists instead of learning to read microfilm and facsimiles using a microfilm machine or going into archives and work with archival materials.
 
 13
-00:01:33.930 --> 00:01:43.200
-And from a broader perspective, what what i'd like to do with this papers is challenge the big divide that still exists between one hand biology and the other.
+00:02:06.780 --> 00:02:14.490
+Our research practices have evolved and now what we do is we find digital facsimiles using online platforms.
 
 14
-00:01:44.250 --> 00:01:52.500
-On the other hand, culture and I believe that precisely and the use of digital methods of computational methods allows us to to bridge that gap.
+00:02:15.390 --> 00:02:25.920
+i'm a literary scholar who turned to digital humanities, because I could see how it was changing the way we access and create knowledge about Shakespeare early modern drama and book history.
 
 15
-00:01:53.220 --> 00:02:00.090
-And today, our report on on joint work with a large number of people whom Allah mentioned downstream in the talk.
+00:02:26.460 --> 00:02:37.800
+My examples today are taken from English department classes, but some of the principles would hold true for other courses, even if the area of study isn't the same even if you're not teaching a Shakespeare class.
 
 16
-00:02:00.720 --> 00:02:05.880
-But, especially with for with getting up was the senior researcher from the makers institutes in Amsterdam.
+00:02:38.280 --> 00:02:50.640
+Some of these principles will will hold true i'd like to thank my students for embarking on these explorations with me and I just wanted to let you know that any student that I name or quote, I have asked permission in advance.
 
 17
-00:02:06.540 --> 00:02:19.770
-And it's with him that i've been working on these problems for for a while now we've also presented this work, a couple of times already, but each time we make a little progress and i'm happy to share with you, where we stand today.
+00:02:51.090 --> 00:03:01.620
+My talk today is from a forthcoming chapter in an edited collection called digital pedagogy in early modern studies edited by Andy Silva and Scott show field.
 
 18
-00:02:21.360 --> 00:02:33.060
-Now first about this curious mix today this mix of literature and ecology, so I assume that some of you will already have a vague idea of which kind of things are studied in ecology.
+00:03:02.760 --> 00:03:03.090
+Okay.
 
 19
-00:02:33.630 --> 00:02:42.330
-But just to set the stage I included definition here on this slide that I grabbed from a statistical textbook on ecology by katie and show.
+00:03:06.090 --> 00:03:15.360
+There are a number of ways to incorporate the digital, which is an often a morpheus category admittedly into teaching Shakespeare at the undergraduate and graduate levels.
 
 20
-00:02:43.200 --> 00:02:52.950
-That I read a while back and this definition goes like this it says that ecology is concerned with the number or the abundance, as they call it in ecology of living things.
+00:03:15.600 --> 00:03:24.420
+Indeed, most Shakespeare classes already include digital components, even if it's research taken with undertaken with early English books online.
 
 21
-00:02:53.430 --> 00:03:08.490
-So how many individuals, there are, how their numbers evolve over time, where they are where they go and important questions in ecology concerned their interactions with the a biotic and biotic environment, but also interaction.
+00:03:24.990 --> 00:03:27.030
+EVO or the world Shakespeare bibliography.
 
 22
-00:03:09.870 --> 00:03:17.550
-Between these individuals between these living things what mechanisms drive the numbers that we see and their dynamics.
+00:03:27.900 --> 00:03:41.070
+If an instructor plans, an entirely analog course the students will still turn to websites with varying degrees of credibility from add written spark notes, and this is the spark notes to stats on their usage with high school students.
 
 23
-00:03:18.690 --> 00:03:32.280
-And while for her, and I have been trying to do in the past two years or so, is exploring whether we can make the following drop in replacement when it comes to to literary studies and, more specifically medieval literary studies.
+00:03:41.640 --> 00:03:50.160
+To the well respected Internet Shakespeare additions instructors wanting to bring digital elements into their classroom can collaborate on exciting assignments for existing projects.
 
 24
-00:03:32.880 --> 00:03:42.810
-So, how does this sound medieval literary studies is concerned with the number of literary works, the abundance of literary works, how many manuscripts there are.
+00:03:50.520 --> 00:04:00.960
+For instance, you could have students right Wikipedia entries professors can join the map of early modern London pedagogical partnership, they could transcribe EVO text learning using type rate.
 
 25
-00:03:43.140 --> 00:03:48.630
-And how their numbers have evolved over time, where they were where they went to an important.
+00:04:01.650 --> 00:04:07.080
+Large digital projects like global shakespeare's at MIT often include students as learning partners.
 
 26
-00:03:49.320 --> 00:03:58.530
-Questions they're concerned their interactions interactions between texts with the environment, but also interactions between texts intersexuality etc.
+00:04:07.410 --> 00:04:16.620
+Students could be encouraged to blog in a Shakespeare class as Peter kerwin has written about or use social media creatively as kyle de Roberto has written about.
 
 27
-00:03:59.130 --> 00:04:10.590
-And I think that this replacement pretty much sums up our current research program, so we are trying to find out how meaningful, it is to take ecological methodologies.
+00:04:17.340 --> 00:04:33.300
+tech savvy instructors can even have students build an entire project or contribute to a project as a class today, however, rather than talking about building or contributing to a digital project i'm talking about equipping students to use digital projects.
 
 28
-00:04:10.980 --> 00:04:19.860
-and applied them to medieval texts as if they were living organisms that are part themselves of a larger ecosystem of medieval literature.
+00:04:34.350 --> 00:04:38.670
+and facilitating their use and understanding of these resources.
 
 29
-00:04:21.690 --> 00:04:31.230
-So this has been very rewarding for us so far it's an experience and one crucial insight that we obtained is related to the following again citing from that.
+00:04:39.390 --> 00:04:52.410
+So often, when a digital humanities component is included in the course the question becomes what are you going to cut to fit in the digital, but the question I like to ask is, are we teaching current research practice if we exclude the digital.
 
 30
-00:04:31.860 --> 00:04:37.950
-katie and sharp textbook and relates to the fact that he colleges increasingly acknowledge.
+00:04:54.240 --> 00:05:03.990
+Although sometimes heralded as a brave new world digital Shakespeare studies is not a new field as the stock image of Shakespeare confused by technology shows.
 
 31
-00:04:38.340 --> 00:04:48.090
-that their work involves a two tiered process So what does that mean it means that there's an actual ecological state s in the world can see that evolve over time.
+00:05:05.010 --> 00:05:07.560
+he's been confused by computers for centuries now i'm just kidding.
 
 32
-00:04:48.690 --> 00:04:58.170
-But as researchers, we never get to properly observed that, because our our observation is are the o's in in the illustration is imperfect so.
+00:05:08.880 --> 00:05:14.880
+The landscape of digital Shakespeare studies is however ever is, however, always changing.
 
 33
-00:04:59.310 --> 00:05:07.080
-there's the actual number of polar bears on the North Pole, so to speak, but then there's also the number of polar bears, that you somehow got to observe.
+00:05:15.240 --> 00:05:24.630
+new digital projects appear existing websites vanish and even those resources that have stood the test of time are updated with new materials and functionality.
 
 34
-00:05:07.500 --> 00:05:18.900
-Which is something completely different, of course, and much of what statisticians doing in ecology is directed in fact correcting their own observations which they never really trust.
+00:05:25.020 --> 00:05:34.380
+My talk today outlines a mid term assignment that can be used as part of a broader course, it can be the only digital component in humanities course with other focuses.
 
 35
-00:05:19.500 --> 00:05:31.380
-And we found it very inspiring that they make such a principal distinction between these true ecological mechanism mechanisms and then, on the other hand, the observational mechanisms in their work.
+00:05:35.370 --> 00:05:42.810
+If, in your course students are contributing to a larger digital project this smaller assignment can be helped prepare them to.
 
 36
-00:05:31.950 --> 00:05:35.820
-And if you will fully fully acknowledge and embrace that distinction.
+00:05:43.110 --> 00:05:51.810
+Consider how they're making a valuable contribution to the existing field if they're writing a final paper and i'll use some of my examples from final papers.
 
 37
-00:05:36.600 --> 00:05:51.660
-The way in which you practice your your science in fact changes radically, and this might sound a bit abstract at this stage in the talk, I hope that by the end of the presentation you'll understand better why this is such a an interesting distinction to make.
+00:05:52.320 --> 00:06:00.990
+This assignment is offer scaffolding to help show them the range of approaches to the field of study and can prompt them to undertake original research.
 
 38
-00:05:53.670 --> 00:06:00.480
-And this is where the the actual talk starts i'm going to go back to that image that you saw on our opening slide.
+00:06:01.740 --> 00:06:09.390
+Even students who are not interested in pursuing Shakespeare studies which I can't imagine why that would be, but some of them don't want to.
 
 39
-00:06:01.050 --> 00:06:10.020
-which was put there on purpose, of course, and this is a PG county jeannie it's a medieval village in Tuscany Italy.
+00:06:10.710 --> 00:06:21.690
+they'll find these the study of digital resources valuable because evaluating and analyzing online tools and projects is an eminently transferable skill.
 
 40
-00:06:10.590 --> 00:06:16.860
-And nowadays it is permanently submerged under water because of the construction of a large Dan in the neighborhood.
+00:06:23.070 --> 00:06:24.330
+So here we go.
 
 41
-00:06:17.610 --> 00:06:30.300
-When the lake is temporarily drink, you can sometimes catch a glimpse of the village, but normally you can only see a couple of towers some roofs like you see in this picture it's a kind of a modern Atlantis you could see.
+00:06:25.350 --> 00:06:29.580
+And although i'm going to be talking about Shakespeare, we can think about other examples here to.
 
 42
-00:06:31.860 --> 00:06:43.470
-And this village is an excellent metaphor for the main problem that we are talking about today, and that is the pretty simple fact is the fact that the study of the history of human culture.
+00:06:32.100 --> 00:06:41.610
+The basics of the digital project analysis assignment are simple each student in the class researches an existing online site and shares their findings with the rest of the class.
 
 43
-00:06:43.950 --> 00:06:52.050
-is hindered seriously hindered by the fact that we have lost a great deal of material artifacts over the centuries.
+00:06:42.390 --> 00:06:48.570
+And i'll go over some of the logistics of how we undertake it and i'll share some of my assignment prompts with you as well.
 
 44
-00:06:52.530 --> 00:07:02.790
-I think that this is something that is true across many areas in the humanities and it's especially true for pre modern literature medieval literature, which is my main focus here today.
+00:06:49.230 --> 00:06:58.590
+Having students teach each other has multiple benefits they gain mastery over one digital project and they're exposed to a range of projects.
 
 45
-00:07:03.990 --> 00:07:13.410
-Basically, we have lost many, many books over the centuries and be accidentally due to bombings or fires in the 20th century.
+00:06:58.950 --> 00:07:14.340
+The benefits of learning by teaching sometimes called ldl learning do 11 for subject mastery and communication skills have been touted for centuries, and most recently lauded as a preparation for life in information and knowledge societies.
 
 46
-00:07:14.160 --> 00:07:24.540
-Sometimes also intentionally because historical collectors would often have disposed of duplicates, for instance, which is a bit weird for from our perspective, but that that often happened.
+00:07:14.880 --> 00:07:30.150
+In my experience, also students often work harder to impress their peers than to just impress me and rather than listen to me drone on about digital sites and how to use them, they hear firsthand from other students what the benefits are drawbacks might be.
 
 47
-00:07:25.680 --> 00:07:45.330
-And this explains our use of the image of Atlantis so when you work with historical literature, you can only work with this very incomplete probably highly biased sample that is only a small part of the original population, so to speak, of historic literature that once existed.
+00:07:31.860 --> 00:07:38.130
+Now, the first step into Korean creating an assignment like this is, of course, to figure out which sites should we send our students to.
 
 48
-00:07:46.920 --> 00:07:55.830
-So I think striking how narratives of robots have become ubiquitous in recent mainstream culture.
+00:07:38.910 --> 00:07:45.840
+Thankfully there are already tons of curated list on almost any research topic you're interested in.
 
 49
-00:07:56.610 --> 00:08:05.010
-To the left here i'm showing the trailer of that recently launched documentary on netflix by Sir David attenborough a life on our planet.
+00:07:46.530 --> 00:08:01.950
+Specifically, the study of Shakespeare has lots so one of these images the top one is from Clare burns of pill crows list, which is a very comprehensive list about digital resources sorted by category I also have.
 
 50
-00:08:05.910 --> 00:08:19.290
-And that whole movie result revolves around the dramatic loss in in biodiversity that our planet is currently experiencing so life as such doesn't seem to be diminishing diminishing for now.
+00:08:03.180 --> 00:08:12.780
+A link or a screenshot here of Sarah warner's digitize first folio which is just a list of all the different ways, you can access different copies of the first folio.
 
 51
-00:08:19.830 --> 00:08:30.690
-But the diversity of life on Earth definitely is diminishing and a very similar argument is made in sapiens that's that the popular science book by you've all had a.
+00:08:13.110 --> 00:08:23.760
+there's also lists by Adam G hooks and cyrus already if you're not a Shakespearean in your field i'm sure you already know a number of resources that could be studied and there are tons of other lists to turn to.
 
 52
-00:08:31.380 --> 00:08:40.470
-And, and also there the far reaching impact of human life on the planets ecological richness is a is a recurrent motive.
+00:08:25.080 --> 00:08:32.850
+If you do an advanced search of the world Shakespeare bibliography by and you limit your sources to digital projects as your document type.
 
 53
-00:08:41.190 --> 00:08:52.950
-So, interestingly in our times, global ideologies of expansion and growth seem to be making room for new narratives that focus more on on loss and shrinkage.
+00:08:33.570 --> 00:08:49.650
+i've sorted the results reverse chronologically here and we can see there's 220 digital projects solely devoted to the study of Shakespeare the world Shakespeare bibliography wouldn't, for instance, include lots of relevant digital resources like.
 
 54
-00:08:53.640 --> 00:09:07.890
-And our story today also revolves around this idea of loss, but then cultural loss, and I think that in this our endeavors is reminiscent of equal criticism, which is a branch of literary studies that you might have heard of.
+00:08:51.390 --> 00:08:53.760
+It wouldn't include the.
 
 55
-00:09:10.890 --> 00:09:23.100
-So about the survival of medieval literature and going to review schematically some of the the route, some of the many rounds, by which medieval literature has been preserved or lost.
+00:08:56.370 --> 00:09:04.200
+hens low Allen archive because it's not specifically focused on Shakespeare, but that might be one that would be interesting to approach in this class.
 
 56
-00:09:23.640 --> 00:09:28.920
-And, of course, this isn't specific to to middle Dutch Shell studies, which is the case that either i'll start with.
+00:09:05.610 --> 00:09:15.780
+The digital projects that you talk about can be tailored to a particular theme like Shakespeare and performance Shakespeare instruction textual studies Shakespeare in book history or global Shakespeare.
 
 57
-00:09:30.180 --> 00:09:42.540
-But to the left, you can see these little circles and these represent the distinct works that a medieval literature once comprised of what we know is that each work was copied into at least one document you could say.
+00:09:16.230 --> 00:09:27.300
+Some existing sites and some even some printed resources offer curated list, with particular emphasis like Hugh mcrae richmond's chapter on teaching the history plays using digital resources.
 
 58
-00:09:43.620 --> 00:09:51.300
-But, of course, sometimes more copies were produced of a single work and in the simplest case like in the first row number one.
+00:09:27.750 --> 00:09:34.890
+The Arden early modern drama guides critical reader series also offer targeted suggestions that include.
 
 59
-00:09:51.900 --> 00:10:06.210
-And you see that a document could be copied into a single copy and then the copy would survive and then it would end up in a repository like a library an archive maybe private collection and so these are big Gray areas that you see to the right.
+00:09:35.340 --> 00:09:46.830
+Digital content so Jillian woods and Laura seymour have a chapter on learning and teaching resources on Henry the fifth that would be applicable if you wanted to focus your attention on just one play.
 
 60
-00:10:07.260 --> 00:10:19.080
-So manuscripts, however, have been completely destroyed in a fire or they have yet to reemerge because we we haven't found them yet maybe they haven't been properly catalog yet.
+00:09:47.850 --> 00:10:00.270
+The main difference when I assign this project for an undergrad class or a graduate class is the kinds of digital resources, I offer students to consider and the sophistication I expect in their analyses.
 
 61
-00:10:20.130 --> 00:10:25.470
-And if you look at the examples in row what is two and four, for instance.
+00:10:02.370 --> 00:10:14.070
+Here is a list that I took from other people's lists to think about what would be valuable for my students to talk about last term, it was an upper division undergrad course and, as you can see, this is not the whole list.
 
 62
-00:10:25.920 --> 00:10:37.260
-And you will understand that these are cases of what we call last works, so why are these last works, all of the associated documents, all of the manuscripts in these works in which these words have been copied.
+00:10:14.820 --> 00:10:26.250
+shakespeare's Canada city has led to the development of many digital projects focused on Shakespeare, but there's a value in moving beyond Shakespeare, and looking at the resources to put his work in context.
 
 63
-00:10:37.800 --> 00:10:45.990
-have been destroyed or they have not been recovered yet and the crucial message that you should take from from this slide from the schema.
+00:10:26.760 --> 00:10:32.190
+Exploring digital projects beyond those focused on Shakespeare can help students see.
 
 64
-00:10:46.560 --> 00:10:59.490
-Is that we make this pretty firm distinction between on the one hand, the Left column and abstract work and then the manuscripts or the sources in which these words have been a distance.
+00:10:32.700 --> 00:10:40.590
+shakespeare's work in relation to his contemporaries and can help them ask questions about Shakespeare central place in our classrooms and theaters.
 
 65
-00:11:00.390 --> 00:11:06.150
-And these are the little book symbols that you see in the second column, but that distinction is very important.
+00:10:41.340 --> 00:10:53.670
+If you want, you can even use this assignment instead of saying we can say here's a Shakespeare class we're actually going to focus on all non Shakespeare related resources right.
 
 66
-00:11:07.680 --> 00:11:13.680
-Now, often all these beautiful manuscripts didn't survive and and skated fashion.
+00:10:55.200 --> 00:11:05.580
+Like the companion of Renaissance drama is a very web one point O resource, I have on this list the digital anthology of early modern English brahma from the folger, for instance.
 
 67
-00:11:14.400 --> 00:11:25.860
-parchments, for instance, is a wonderfully solid material it ages really well and we see that, after the Middle Ages, the parchment from from older books was often recycled for different purposes.
+00:11:06.420 --> 00:11:18.330
+Students can get very excited about, for instance, the last plays database which among its hundreds of descriptions of last plays includes nine entries on Shakespearean plays and apocrypha.
 
 68
-00:11:26.430 --> 00:11:36.690
-that's, of course, very ecological thing to do, but it's it's insane to see what people have some things done to these books, the fragment to the left, for instance, was once used to.
+00:11:18.630 --> 00:11:25.890
+because it shows just how much evidence we are missing and can help us better qualify the claims, we make about early modern drama.
 
 69
-00:11:37.260 --> 00:11:49.620
-strengthen our bishops mitre later times and it's so funny fact that this Bishop was actually walking around with some fairly erotic literature on his head by Maggie the false.
+00:11:26.730 --> 00:11:35.670
+She Alexander, who is a graduate student who her area of focus is book history and Victorian studies astutely observed in her presentation that.
 
 70
-00:11:51.000 --> 00:11:57.150
-And so yeah, this is not very important it's just very interesting to see what happened to these books.
+00:11:36.120 --> 00:11:43.890
+The last place database effectively argues that scholars knowledge of early modern drama remains limited with much content yet to be discovered.
 
 71
-00:11:58.680 --> 00:12:15.570
-And now, today for illustration purposes i'm going to start with a small case study on middle Dutch literature, you probably don't know much about that, but that's Okay, this is the vernacular this Richard that has been written in the in the Low Countries during the medieval period.
+00:11:44.160 --> 00:11:58.170
+By extension, this website also argues that the early modern drama cannon needs to be expanded, and so it provides early modernists a well articulated computer supportive collaborative workspace in which to share and build upon that work.
 
 72
-00:12:16.890 --> 00:12:20.670
-And then, more specifically what we've done is we've looked at the so called hidden.
+00:11:58.950 --> 00:12:11.880
+This assignment can lead students to question indeed why so many projects have a focus that starts and ends with Shakespeare and can be an effective way to introduce contextual materials into a single author course.
 
 73
-00:12:21.750 --> 00:12:36.600
-which would translate to English as chivalric Romans so chivalric epics and they contain the kind of narrative fiction, that is very typical of the Middle Ages, like, for instance, the legends of King Arthur and his nights.
+00:12:14.670 --> 00:12:22.590
+Both undergraduate and graduate students benefit from this when I teach this to undergrads I like to put on some resources focused on pedagogy.
 
 74
-00:12:37.620 --> 00:12:51.270
-So in this is middle Dutch corpus we currently know of 75 works in the genre and these works together survive in 167 documents typically yeah arch manuscripts.
+00:12:22.860 --> 00:12:29.340
+For instance, if people are working to certify as teachers, the resources that will be interested interested them will be different.
 
 75
-00:12:52.260 --> 00:13:02.220
-And he again, you see that this difference between an abstract work and then the material documents are copies in which that works your those words survive is pretty crucial.
+00:12:30.000 --> 00:12:37.140
+If they're planning on teaching in high schools or primary schools this past semester my students looked at.
 
 76
-00:13:03.540 --> 00:13:10.680
-Before the printing press, of course, all these copies of works for a hand copied, and this makes all of these books unique.
+00:12:37.740 --> 00:12:51.870
+The rsc Shakespeare learning zone and also australia's Shakespeare reloaded and during the class discussion time they talked about how these sites were different and complimentary and why you might turn to one versus another.
 
 77
-00:13:12.390 --> 00:13:19.470
-So we know for a fact that many of these middle Dutch manuscripts have been lost and as a consequence, also works.
+00:12:52.890 --> 00:13:07.050
+The content of these sites, I mean they're both aimed at a similar audience with different geographic locations, but how many if you were a teacher Where would you go to find your resources to teach Shakespeare.
 
 78
-00:13:21.630 --> 00:13:32.250
-And so what we don't know is how representative the corpus the surviving corpus is of the original full population that we had of middle Dutch Shiva read fiction.
+00:13:09.030 --> 00:13:17.310
+At the graduate level, I often ask students to work with more advanced research, such as that facilitated by the database of early English playbooks.
 
 79
-00:13:32.970 --> 00:13:49.950
-and scholars have published some estimates, in the past experiences and influential this very history from 2006 that estimated that we must have had at least 100 works so in blinding of course at 25% of the works that we once had are not lost.
+00:13:17.610 --> 00:13:24.930
+And online sites by the records of early English drama, like the patrons and performances site or early modern London theaters and last.
 
 80
-00:13:51.120 --> 00:14:07.740
-And then, for the documents in which these works have been copied book historians have published estimates and, as you did only 7% of the manuscripts have survived and so these are interesting numbers because we will use these as a kind of baseline in our in our study.
+00:13:25.740 --> 00:13:43.440
+One memorable semester read launched its new website, the week, one of my students was supposed to present on it, she handled the situation with aplomb and help lead the class in a discussion of what had been changed and how it had changed and also thinking starting to think about why.
 
 81
-00:14:09.360 --> 00:14:18.900
-And so, about this Ross from a scientific point of view there's a there's a pretty pressing issue with work here, and this issue of bias.
+00:13:44.490 --> 00:13:52.920
+I mean, there was a moment that she came to see me in my office hours with just panic and what actually came out of it was one of the best discussions we had all term.
 
 82
-00:14:19.380 --> 00:14:33.030
-Because, as medievalists working on this corpus of middle Dutch manuscripts and texts we are strongly biased towards the stuff that actually survive, and that makes perfect sense, of course, because we, we have to work with what we have.
+00:13:55.320 --> 00:14:03.360
+The myth of the digital native a generation of learners who innately understands computers has been thoroughly debunked.
 
 83
-00:14:34.230 --> 00:14:43.980
-But the result of this bias is that we, in fact, are consistently under estimating how much there was in the first place, so what we are actually doing is under estimating.
+00:14:03.780 --> 00:14:22.830
+Students need to learn how to use digital projects to make thoughtful arguments, this can include learning basic skills such as determining the scope of a project and how to search it why, for instance, is the launching of the Mary not included in deep it's a play from 1632.
 
 84
-00:14:44.490 --> 00:14:54.990
-The diversity of the number of documents, the number of works that were originally there and we must somehow account for that, I think.
+00:14:24.480 --> 00:14:36.000
+So when we offer, so I like to offer some test cases to students and we do some of this in class I also offer students when they're working on their presentations I give them some suggestions on what to look for.
 
 85
-00:14:58.020 --> 00:15:09.330
-So to answer that question how much has been really last of this middle Dutch literature and we have turned to the field of ecology and in these fields and equal diversity.
+00:14:37.440 --> 00:14:53.850
+And what happens is students start to realize that a database of early English playbooks, which is a focus on print is not the same as a database of early English plays also something that they come to from the last place database, the launching of the Mary is a manuscript play.
 
 86
-00:15:09.960 --> 00:15:19.140
-or species richness is a crucial concepts and for many reasons, ecologists often want to know how many distinct species live in a certain area.
+00:14:55.170 --> 00:14:58.920
+manuscript play is naturally outside the scope of deep.
 
 87
-00:15:19.620 --> 00:15:29.550
-Because that knowledge can, for instance, help them to monitor the impact of ecological disasters, you can think of the wildfires in Australia recently.
+00:15:01.020 --> 00:15:10.680
+And here's another one why, when you search for Macbeth in early English books online, this is the you can see here the search terms as title Macbeth.
 
 88
-00:15:30.960 --> 00:15:48.000
-So, how does that work in practice well these ecologists, are going to send in a team of observers, who have to cover a certain area during a couple of weeks, months, maybe, maybe even years and you're going to use harmless straps or other trapping instruments.
+00:15:11.100 --> 00:15:19.290
+i've sorted this by the oldest first, and if you just looked at this at a glance you would be like okay great Macbeth was first published in 1673.
 
 89
-00:15:49.350 --> 00:15:55.500
-And these people are literally going to start counting animals now of course they will have.
+00:15:20.700 --> 00:15:35.490
+What to a season Shakespearean, it is obvious that Macbeth was first published in the 1623 first folio but the title of the first folio is comedies histories and tragedies it emits the name of the Scottish play.
 
 90
-00:15:56.550 --> 00:16:00.330
-observed a lot of insects and smaller mammals so after a couple of days.
+00:15:35.850 --> 00:15:45.510
+But for students, this is a learning experience they can learn about the folio they can learn about anthology ization they can even learn about William dominance restoration adaptations and so on.
 
 91
-00:16:00.780 --> 00:16:10.980
-But they are in fact very likely to miss many species during their campaign so they are going to miss miss species that are more difficult to spot where animals on the.
+00:15:46.020 --> 00:15:57.120
+Furthermore, grappling with unexpected search results help students discover best practices for searching digital sites and help them determine the scope and where let's say the.
 
 92
-00:16:11.640 --> 00:16:29.670
-tigers or snow leopards and that's, of course, a major issue, because these ecologist they know that our accounts are inaccurate so, in fact, like medievalists these ecologists know that they are under estimating the actual richness or the diversity of the species that live in that area.
+00:15:58.560 --> 00:16:11.370
+The fuzziness is to use a term that EVO itself uses as Ian gad has pointed out, searching EVO can seem like a search of all early modern literature, when this is patently not the case.
 
 93
-00:16:32.730 --> 00:16:41.760
-Do account for these unseen species in a sample as they are called, ecology, has developed a tradition of statistical methods.
+00:16:11.850 --> 00:16:19.890
+Each digital site is bound by its editorial decisions and practices, why are the English short title catalogs.
 
 94
-00:16:42.480 --> 00:16:54.360
-And here today i'm going to focus on one of these models, one of these unseen species models that is called child, one which has been developed by and chow was a diver nice biostatistician.
+00:16:20.340 --> 00:16:32.550
+Different results than EVO, why does it offer different results than deep, how do these projects diverge and overlap, if you want to undertake research in the early modern period, these are the kinds of questions you have to grapple with.
 
 95
-00:16:55.500 --> 00:17:02.700
-So, if you would like to apply that method, you have to represent your data as so called abundance data remember abundance.
+00:16:34.560 --> 00:16:43.560
+What material, and this is an example, I also had from last semester what material is covered in the J store understanding series Shakespeare collection.
 
 96
-00:17:03.780 --> 00:17:11.820
-And in that data, you have to record how often each species has been cited during a campaign by registration campaign.
+00:16:44.040 --> 00:16:51.540
+It was formerly called understanding Shakespeare, which seems a bit catch here and what is the most useful way to navigate its results.
 
 97
-00:17:12.450 --> 00:17:24.990
-You can see an example of such a table here to the to the left, so in this example, what you see is that during some campaign some sampling effort 45 species were spotted that they were spotted only once.
+00:16:52.290 --> 00:16:59.370
+I don't know if you've ever been to this website or not, but it offers the folger digital texts or which is now called the folger Shakespeare.
 
 98
-00:17:25.530 --> 00:17:35.580
-And there was one species that has been observed, up to 17 times, this is not an a typical situation in ecology for this, I would call this data representative.
+00:17:00.000 --> 00:17:04.980
+It offers the folger Shakespeare text to the place and then it shows you how many.
 
 99
-00:17:36.990 --> 00:17:48.960
-Now what is especially important in this data is what we call single terms and double teams So these are the number of species that have been cited exactly once or exactly twice.
+00:17:05.490 --> 00:17:15.360
+articles in J store quote that line so here, you can see, to be or not to be as quoted in 500 and to Jay store articles, but as my student pointed out last term.
 
 100
-00:17:49.470 --> 00:17:58.680
-And these are what they call F1 F2 in ecology, you can see them also in the formula for child one in the bottom left here.
+00:17:15.900 --> 00:17:26.340
+That is a little bit misleading because it's not 502 articles about Hamlet and Jay store it's 502 articles, who, at some point throughout it to be or not to be without.
 
 101
-00:17:59.790 --> 00:18:08.430
-And the main assumption of this method is that the number of low frequency species informs us as to how many species, we did not.
+00:17:27.930 --> 00:17:32.820
+Without actually sometimes even going was not even sometimes being about Shakespeare.
 
 102
-00:18:08.940 --> 00:18:26.460
-observe so, in fact, what we are doing Mathematically speaking is we take F1 F2 and we take those numbers to estimate F zero and zero is kind of a funny number it's the number of species that are out there, but which were observed exactly zero times.
+00:17:34.230 --> 00:17:41.340
+I find this so this tells us about you mean you could point to this and make a claim about the popularity of given lines and Shakespeare.
 
 103
-00:18:28.320 --> 00:18:39.300
-And so, this isn't extremely relevant but it's kind of fun to know that this this method is chat one method is in fact directly, based on the code breaking work by Ellen during World War Two.
+00:17:42.870 --> 00:17:52.290
+But you have to think about this is limited and Jay store so it's not a record of all scholarship you have to think about how lots of people quote Shakespeare when they're not actually talking about Shakespeare.
 
 104
-00:18:40.260 --> 00:18:48.750
-is related to what we know, or what we know as the the touring good estimates in information to you and touring and his college.
+00:17:52.590 --> 00:18:04.560
+You have to know how to make a claim that makes sense I love this image and I love this example of to be or not to be being a super popular line but it's not about to be or not to be being.
 
 105
-00:18:49.290 --> 00:18:59.850
-Colleagues, were also often confronted in situations in which they had to guess how likely it was that they would encounter an encrypted work in these enigma machines.
+00:18:06.720 --> 00:18:12.480
+The most critically analyzed line in a store right that there's a difference there and the claims, we can make.
 
 106
-00:19:00.240 --> 00:19:14.430
-that they have not encountered so far so that's maybe unexpected, but this unseen species formula from chow one is directly, based on the formulas that were developed for a similar purpose at bletchley park.
+00:18:13.830 --> 00:18:30.240
+I find this assignment having students go research or digital project come back and teach the class about it helps me because it teaches me about the assumptions I make interfaces that i'm used to are called database or called dated by students.
 
 107
-00:19:16.260 --> 00:19:25.590
-Now the core question here is whether we could also take this method and apply it to our middle Dutch data to accounts for many evil works and.
+00:18:31.440 --> 00:18:38.460
+It also helps me learn about how they approach things because we're not going to have the same assumptions when we approach a project.
 
 108
-00:19:26.100 --> 00:19:35.220
-We think that that is possible, obviously, but if you would like to believe that together with us you're going to have to accept the number of analogies.
+00:18:39.900 --> 00:18:57.030
+By learning how to use digital sites, they can also create original and impressive research, one of my undergraduate students Madeline lowery was fascinated by the images of Victorian and Edwardian Shakespeare actors, presented by Shakespeare, and the players, this is a website from emory.
 
 109
-00:19:36.210 --> 00:19:43.020
-So, first of all, what we are going to do is we are going to take works, and we are going to treat them as distinct species.
+00:18:58.980 --> 00:19:09.450
+This resource is an digital archive of images of postcards of actors who performed Shakespeare at the turn of the century from 1880 to 1914.
 
 110
-00:19:43.800 --> 00:19:51.210
-And then next what we are going to do is take the number of surviving documents for each works and we're going to see these as a proxy.
+00:19:10.140 --> 00:19:21.750
+In her final paper lowery wrote about how desdemona was portrayed in these early performances captured on postcards and argued that in some productions desdemona was presented as a new woman.
 
 111
-00:19:51.630 --> 00:20:01.110
-For the number of sightings of an animal species in ecology and here to the assumption would be that the number of works that have a very low.
+00:19:22.050 --> 00:19:32.730
+That turn of the century feminist aesthetic reflected a whole new way of thinking about women's role in society and what women could and should do, for instance, like writing.
 
 112
-00:20:01.590 --> 00:20:07.890
-survival frequency can inform us as to the number of works that did not survive at all.
+00:19:34.470 --> 00:19:46.800
+lowery focused on a 1907 production stage in Manchester featuring Margaret helston as desdemona and Matheson Lang as a fellow she brought in this iconic image of the gibson girl as the aesthetic for comparison.
 
 113
-00:20:08.850 --> 00:20:16.350
-And you can even take this analogy, a little bit further and say that the the libraries or repositories in which these these manuscripts ended up.
+00:19:49.020 --> 00:19:58.770
+I was so impressed to hear to read her paper, where she had gone found this research from these resources by herself and come up with a wholly original thesis.
 
 114
-00:20:16.800 --> 00:20:27.180
-are similar to like the traps that are used in ecology to catch animals, which is kind of a cool way of looking at this libraries as book traps, so to speak.
+00:19:59.220 --> 00:20:07.260
+This website allowed an undergraduate student to undertake original research that would not have been popular would not have been possible.
 
 115
-00:20:29.370 --> 00:20:44.910
-So, what happens if you do apply this method to, for instance, is middle Dutch data that we have well you get something like this, this is a graph that represents a circle species accumulation curve and this nicely sums up the result.
+00:20:07.710 --> 00:20:16.200
+Without costly travel access to archives depending on where you are, you might be fortunate to be able to access all sorts of archives, but.
 
 116
-00:20:45.930 --> 00:20:53.970
-So you have that blue line and what we are doing with a blue line is we're plotting the number of works on the.
+00:20:16.890 --> 00:20:28.410
+Your research questions and your areas of interest might might or might not also be possible, there might hypothetically also be a global pandemic gone or something like that that prohibits you from traveling and things like that.
 
 117
-00:20:54.990 --> 00:21:07.200
-Vertical axis as a function of the number of documents on the horizontal axis, so what this does is showing you how many new works you're likely to find.
+00:20:29.580 --> 00:20:42.000
+So this research that would have been too costly and time consuming for an undergraduate to undertake in person, by going to visit postcards and thinking about that was made much simpler, with a digital archive.
 
 118
-00:21:07.860 --> 00:21:21.210
-As you sample or discover more documents you have a solid part to that line to the left and that's the situation as we can observe it nowadays, remember, we have 75 works that we know.
+00:20:43.500 --> 00:20:53.220
+And I will also say that we have to think about our expectations in in Canada most undergraduate students are taking five classes, at a time for a full course load.
 
 119
-00:21:23.010 --> 00:21:35.160
-But what you also have is that dashed part of the line and that sort of offers a peek into the future, so it shows you what would happen if we were to continue finding more manuscripts even into infinity.
+00:20:53.880 --> 00:21:02.520
+We couldn't reasonably expect someone to go to an archive and spend their time there for a final paper for one 200 level undergrad class.
 
 120
-00:21:36.000 --> 00:21:43.200
-And this gorgeous asymptomatic So you can see it, it starts to flatten out at a given point and it's the saturation level.
+00:21:03.390 --> 00:21:11.970
+The other thing I will add is that this kind of assignment or offering students these tools makes it harder to plagiarize if they are there's a ton of.
 
 121
-00:21:43.740 --> 00:21:52.260
-So just that originally there were at least 152 decks, of which only half of them would survive nowadays.
+00:21:12.570 --> 00:21:24.180
+Shakespeare essays of varying quality, as you know, on the Internet, but there's not a lot of essays that go to a digital resource find something interesting in there and write about it and make it an argument based on that.
 
 122
-00:21:53.130 --> 00:22:01.350
-You also have that shaded light blue region and it gives you a what they call a confidence interval there's quite a bit of uncertainty, as you can see.
+00:21:27.960 --> 00:21:35.100
+Even when students who undertake this digital project analysis choose not to use the digital project in their final paper.
 
 123
-00:22:01.920 --> 00:22:09.570
-But this estimate still suggest that is very unlikely that only 25% of the works and is literature were lost.
+00:21:35.850 --> 00:21:44.910
+The skills gained in this assignment offer them a better way of understanding shakespeare's play shakespeare's plays or poems, although I don't usually focus on the poems.
 
 124
-00:22:10.110 --> 00:22:19.650
-So I think that, in a way, this model gives us grounds to reject the optimism in the field of middle Dutch studies and it allows us to.
+00:21:45.570 --> 00:21:57.180
+Creating thoughtful evaluations is a vital skill in the humanities learning to assess a digital projects audience credibility usability and scope is an important part of critical thinking.
 
 125
-00:22:20.250 --> 00:22:30.270
-put forward the hypothesis that at least half and probably more of the worst thing is literature, are now lost or they have at least not been recovered yet.
+00:21:57.570 --> 00:22:11.130
+Every digital project is itself an argument and we have to figure out what arguments those projects make they make arguments by having certain things included other things excluded certain things centralized others.
 
 126
-00:22:33.780 --> 00:22:48.090
-So some related research when it comes to previous work I think there's a big gap between on the one hand, the loss of works, the abstract thing and the loss of documents which are the concrete material artifacts.
+00:22:11.730 --> 00:22:20.220
+marginalized this assignment also show students, how we make arguments as Shakespearean we look at.
 
 127
-00:22:49.290 --> 00:23:05.730
-For the loss of works and specifically for the medieval period there's there has been very little empirical or quantitative previous work in fact only found a single paper so far on polyphonic manuscripts and cuthbert were similar methods are life.
+00:22:20.940 --> 00:22:25.590
+primary sources, like those featured on Shakespeare documented by the folger Shakespeare library.
 
 128
-00:23:07.710 --> 00:23:25.080
-In broader book history, we should definitely mentioned the pioneering work by imports, who applied a very similar model, but they applied it to to print it works early modern print it works and the formula that they use and relies on an estimation of the printer.
+00:22:25.980 --> 00:22:36.240
+We look at performance translation and reception history, often in national contexts, like the Taiwan Shakespeare database and Shakespeare and espana tell us.
 
 129
-00:23:26.190 --> 00:23:36.330
-of books but that's, of course, a meaningless parameter in the case of medieval books, because they were handwritten and always produce this unique copies.
+00:22:36.720 --> 00:22:47.850
+We think we count things and we quantify using, for instance, the concordance is of shakespeare's Open Source Shakespeare or going to sites like shakespeare's words.
 
 130
-00:23:37.740 --> 00:23:48.660
-And regarding the loss of documents or the loss of manuscripts I think we're on firmer grounds and, in fact, there has been quite a bit of empirical statistical work.
+00:22:48.600 --> 00:23:05.490
+And that's just to name a few approaches these sites exist because scholars wanted to promote a particular way of thinking about Shakespeare and what's useful is to help students step back a second and say what is the underlying argument of these sites.
 
 131
-00:23:49.560 --> 00:24:00.150
-Most of this work, however, is based on medieval libraries, of which the historic composition is still known because their their catalogs survived.
+00:23:08.430 --> 00:23:26.160
+In preparing these presentations they gain a depth of understanding about a given area of Shakespeare studies, but they also are exposed to a breadth of knowledge, because they hear all of the other students talk and and we actually as you'll see create some shared resources to.
 
 132
-00:24:01.230 --> 00:24:13.950
-And Okay, indeed, by by tracking how many of these documents still survive if you can identify those books, you can indeed estimate the loss of of documents that way.
+00:23:27.240 --> 00:23:28.590
+build on our final papers for.
 
 133
-00:24:14.670 --> 00:24:21.570
-But here there's two caveats and so, first of all, we don't have that many bookless from the Middle Ages.
+00:23:31.200 --> 00:23:47.640
+there's no single approach to Shakespeare studies on the web, just as not digitally even a full semester course on just Shakespeare in the digital would not be able to cover all of the scholarly and valuable digital resources on Shakespeare.
 
 134
-00:24:22.110 --> 00:24:27.810
-And the second problem is that they often come from very protected privileged environments like like monasteries.
+00:23:49.890 --> 00:23:57.720
+This assignment builds on students contagious enthusiasm and helps them and, like I said they would get bored if they just listened to me and.
 
 135
-00:24:28.350 --> 00:24:42.900
-And for that reason we don't always know how representative these numbers are for other collection environments, so it would be really good if we could corroborate these numbers using clock complimentary methods and that's what we tried.
+00:23:58.230 --> 00:24:10.500
+They hear each other and my favorite is when they take an assignment, or they take a project that someone else wrote about for their and talked about in their presentation and they use that one for their final paper.
 
 136
-00:24:44.700 --> 00:24:53.970
-to remember john one is what we call an unseen species model, so we, in our analogy we argue that it can tell us something about the loss of many evil works.
+00:24:10.830 --> 00:24:16.860
+it's not that they said Oh, I wrote about Shakespeare documented and so i'm going to do my final paper using Shakespeare documented.
 
 137
-00:24:54.540 --> 00:25:04.710
-But equally relevant in medieval studies is this number of last documents so bluntly border how big was the original population of manuscripts the onset system.
+00:24:17.370 --> 00:24:29.460
+They say Oh, I heard someone else give a presentation about the Taiwan Shakespeare database and i'm going to incorporate that into my final paper into my argument about and this happened last term King Lear.
 
 138
-00:25:05.820 --> 00:25:17.280
-for answering that question we use the extension of Charles method from 2009 that was originally mentoring informed field workers as to how they were doing on the registration campaign.
+00:24:31.380 --> 00:24:47.430
+Now, how do you actually go about making this assignment work there's a couple of different ways to do this and i've done this in and I mentioned undergrad and Grad classes, which I believe you would call postgraduate classes, I have also done this.
 
 139
-00:25:18.120 --> 00:25:26.310
-So suppose that we have been able to establish f0 right or the number of an observed species, the numbers that we missed when sampling.
+00:24:48.870 --> 00:24:56.790
+In different class sizes so and this year for the first time I did it teaching online and not teaching in person.
 
 140
-00:25:27.120 --> 00:25:36.510
-And this model tries to estimate how many additional sightings we would have to do to observe each of these unseen species at least once.
+00:24:57.540 --> 00:25:07.110
+For a small class I like to have students each prepare a presentation, where they walk us through the site and show the kind of research that site can facilitate identifying the sites argument.
 
 141
-00:25:37.320 --> 00:25:49.380
-And what we argue, is that this method can give us an idea of the number of lost manuscripts, especially because we can assume that most medieval works must have circulated in pretty low numbers anyways.
+00:25:07.560 --> 00:25:15.030
+i've had success with either devoting to class periods to these discussions so like a full week about in the middle of term.
 
 142
-00:25:50.250 --> 00:26:00.420
-And so, our reasoning here is that if you have seen every work at least once that probably implies that you also have seen most documents that you know most manuscripts.
+00:25:15.840 --> 00:25:28.470
+or sometimes having students present one at the beginning of each class the nice thing about having them present in a whole chunk is that I always a lot a ton of time for discussion, because that is one of the most valuable.
 
 143
-00:26:01.290 --> 00:26:14.070
-So what is the second question that we're answering here how many more documents, how many more manuscripts what we have to discover from this genre in order to discover all works.
+00:25:29.130 --> 00:25:36.270
+Times where my students are asking each other questions and I give them grades for asking each other questions.
 
 144
-00:26:15.810 --> 00:26:23.820
-And so, in this graph you can see what happens if you apply this extension of ciao one to this middle Dutch data again.
+00:25:37.710 --> 00:25:46.530
+If i'm teaching a large class, and by that I mean like 60 or more people the way I do it is instead of offering everyone to choose their own presentation.
 
 145
-00:26:24.660 --> 00:26:38.130
-So again, you see this species accumulation curve in blue and, basically, what we are trying to estimate here is the point where the blue dotted line starts to saturate right where D, as in dog kicks in.
+00:25:46.920 --> 00:26:00.780
+I assign them each a project, and I would have let's say six projects so everyone in group one talks about the Shakespeare in the players, everyone in group to talks about the Taiwan Shakespeare database, for instance.
 
 146
-00:26:39.000 --> 00:26:49.350
-And that green blob in the graph is showing you the distribution and for the estimates of the original number of documents and shown by the vertical line.
+00:26:01.740 --> 00:26:12.450
+And they all learn about that, and then they come into class and they present in small groups, I have not yet done that one in an online course, but you could do it using breakout rooms.
 
 147
-00:26:49.890 --> 00:27:03.420
-And this method suggests that originally there were just over 2200 manuscripts containing middle duchy Valerie groans and of these only about 7.5% within survivor according to this method.
+00:26:13.500 --> 00:26:16.200
+In, whatever your digital platform is for teaching.
 
 148
-00:27:04.740 --> 00:27:15.630
-So, when does number first came out, I was really surprised and that had to do with the fact that we have these earlier instruments from from book historians in this domain, I mentioned them at the beginning of the talk.
+00:26:17.610 --> 00:26:22.650
+And I would like to thank Madame de puter my high school geography teacher for teaching me that technique.
 
 149
-00:27:16.380 --> 00:27:32.040
-And so scholars have previously suggested a survival factor of about 7% for knowledge non illustrated, for macular manuscripts on the Middle Ages, and that is the kind of book in which middle Dutch literature typically survives.
+00:26:25.230 --> 00:26:26.310
+When we.
 
 150
-00:27:32.700 --> 00:27:47.460
-And I found it pretty astonishing that our method out of the blue, and although uses a completely different data source and gives us an estimate in roughly the same ballpark 7.5% according to our latest calculations.
+00:26:27.330 --> 00:26:45.690
+When we this is this is part of the assignment prompt as well, so when I asked the students to think about the sites, I asked him to think about who writes and creates it is it still updated, what is it point is it scholarly, why is it useful, and I asked them to give examples.
 
 151
-00:27:48.300 --> 00:27:56.760
-So when it comes to manuscript survival, this method seems to corroborate previous findings by by book historians, which seems really valuable.
+00:26:49.590 --> 00:27:00.450
+And I also offer some possible possibly relevant points for them to consider are there other sites that might compete with this site, this is the thing asking students to.
 
 152
-00:28:03.600 --> 00:28:12.240
-Now so far i've only been talking about this relatively small get a small scale case study of middle Dutch literature, which I really love.
+00:27:00.870 --> 00:27:11.460
+explore a digital project means that you have we as seasoned scholars can see a much larger piece of the field, this is trying to get them from.
 
 153
-00:28:12.780 --> 00:28:20.250
-But if we're being honest Dutch is only a smaller language also one of comparatively low prestige, you could say also in the Middle Ages.
+00:27:12.270 --> 00:27:27.990
+newbie not to seeing the entire field, but just toward seeing more of the field and so when we have our discussions and they say things like oh i'm talking about mit's global Shakespeare How does that relate to the Taiwan Shakespeare database.
 
 154
-00:28:20.940 --> 00:28:36.690
-So Dutch was nothing in comparison to French, for instance, which enjoyed a much higher prestigious international so that raises an obvious question these numbers that we obtained for middle Dutch what would they look for what they look like for other literature's.
+00:27:29.190 --> 00:27:33.240
+Or, as I mentioned, last time talking about the Shakespeare learning zone and Shakespeare reloaded.
 
 155
-00:28:37.890 --> 00:28:48.930
-And to answer that question we've set up an international group of domain experts and we these people, we are currently trying to obtain similar data sets for other medieval literature.
+00:27:34.380 --> 00:27:41.520
+I also talked about right, we also have them talk about things like interface, and if the site makes sense to them because.
 
 156
-00:28:49.890 --> 00:29:01.890
-And right now we are covering the following languages middle hi Jerome all Icelandic middle French or at least the longer Doyle middle English literature and Irish temperature.
+00:27:42.330 --> 00:28:00.480
+Some things that we think will make sense to a student right away just don't students who are came up with the blank Google search bar for instance don't understand boolean operators so always have a library and come to your class to help with research, how to research days as well.
 
 157
-00:29:03.660 --> 00:29:08.730
-So I should probably stress that that this last part of the talk only covers work in progress.
+00:28:07.350 --> 00:28:15.510
+And I give them a sample thesis and you can see here, this is the discussion, I asked them, I give them grades for asking other people questions.
 
 158
-00:29:09.540 --> 00:29:18.960
-hasn't been properly reviewed and all that and we're still working very hard to on the Code and the materials and the numbers will shift a lot so.
+00:28:16.050 --> 00:28:27.780
+So here's my sample thesis that I gave them the Internet Shakespeare additions argues that scholars want to be able to compare early printings of shakespeare's works consult facsimiles and use both edited and annotated modern additions.
 
 159
-00:29:19.380 --> 00:29:22.680
-I should really stress that this work hasn't been finalized in any way.
+00:28:28.110 --> 00:28:37.200
+The IOC is functionality offers exciting possibilities for researchers working on Shakespeare its scope, reinforces Shakespeare central place in the English literary canon.
 
 160
-00:29:23.430 --> 00:29:35.400
-We are really working on this in the framework of open science and we are communicating about the project as it enrolls because we think that we can greatly benefit from from the feedback that we get along the way.
+00:28:38.460 --> 00:28:43.800
+And when the students go through sort of thinking about here's the things I like about a site here's the things I don't like about a site.
 
 161
-00:29:36.450 --> 00:29:46.380
-So that being said that huge disclaimer there's a number of interesting observations, I think that can be shared already if you're interested in following up on our work, you can check.
+00:28:44.130 --> 00:28:57.240
+They have to think about what the criteria they set up for success are as well it's a simple rhetorical evaluation assignment that lots of people do in their English classes and have done forever we're just applying those ideas to digital.
 
 162
-00:29:47.430 --> 00:29:59.430
-The Bible software package that we are currently developing called copia and this package makes it easy to apply these methods to your own data, and you can also track our progress there in the coming months.
+00:28:58.470 --> 00:29:09.870
+For undergrads I also like to link this to the craft test not sure you've ever heard of that one currency relevance authority cr a P, and so you say.
 
 163
-00:30:01.230 --> 00:30:10.440
-And so the hardest part so far has been the delineation of the material because we started out from middle Dutch he did he Valerie epic chivalric Romans.
+00:29:11.010 --> 00:29:15.270
+let's find out what this site is about I usually give students.
 
 164
-00:30:11.280 --> 00:30:23.970
-which I originally had a seem to be pretty unproblematic but it turned out to be surprisingly hard to find a good mapping of this text, for it to water cultural regions in medieval Europe.
+00:29:16.830 --> 00:29:31.230
+Sorry we'll talk with the handout i'll come back to the setup again so when I have students present they have to give us a handout sometimes last time I had them do PowerPoint slides because we were teaching, we were at a distance.
 
 165
-00:30:24.630 --> 00:30:37.590
-So over all of our conversations with these experts we've been trying to negotiate a common definition of what we should include to arrive at a data sets that are at least somewhat comparable across medieval Europe.
+00:29:31.770 --> 00:29:47.790
+But often I just have them add a page to the course website and then they walk up to the class and they share their page on the course website and walk us through the key things, including a link to the site and screenshots and from that handout I take their annotation which is.
 
 166
-00:30:38.700 --> 00:30:52.470
-So we are looking currently at what we call longer form chivalric and heroic narratives from the Middle Ages, so you could think of this as the equivalent of what we call action movies nowadays nowadays.
+00:29:49.080 --> 00:29:58.710
+A bibliographic citation and, like the key points and I make an annotated bibliography and I hand it back to all the students and then the students can say.
 
 167
-00:30:53.550 --> 00:31:03.870
-And an indie six vernacular we are looking at all the works from the very start of these literature's up to the introduction of the printing press in these areas.
+00:29:59.040 --> 00:30:09.420
+Oh so and so was talking about this site that was really cool but I forgotten what it is, where should I go thinking thinking about that for my final paper and they've got a reference that we've created together.
 
 168
-00:31:04.530 --> 00:31:15.540
-We include pros and verse six we don't make a distinction between original and translated material so in terms of contents and the material that we look at what includes.
+00:30:10.560 --> 00:30:14.610
+And I also like them to have at least some images on their online handouts.
 
 169
-00:31:15.930 --> 00:31:27.990
-Like the vanilla chivalric romances of the arthurian type, but it would also include indigenous heroic materials like shazam adjusted in French or the Icelandic for next fall.
+00:30:15.930 --> 00:30:32.550
+What I find challenging about this assignment, is that the students actually really want to talk for a long time about their projects, as with any presentations here at the challenge has not been to get them to talk long enough, the challenge has been to rein them in, so I do the.
 
 170
-00:31:28.950 --> 00:31:43.380
-But also older epics like like be off and here i'm i'm brushing a lot of details under the carpet like where we got the data and all that, but I should probably stress that each of these selections would deserve a talk of its own.
+00:30:33.900 --> 00:30:46.770
+Say okay your handout if it's when it was printed I said one page when we were doing slides I said no more than four slides I just try to keep them on top on topic.
 
 171
-00:31:44.940 --> 00:31:52.200
-i'm going to start with a couple of high level statistics on the data, as we have collected it so far, and in this table you see.
+00:30:48.030 --> 00:30:54.510
+And we also at the end of my annotated bibliography I always include a glossary where students have explained things like.
 
 172
-00:31:53.190 --> 00:32:03.930
-The number of texts or works for each of these traditions, the number of documents or the manuscripts and also include these notorious numbers F one F two.
+00:30:55.740 --> 00:31:08.010
+textual studies that's a word we throw around all the time, your undergrads have never heard of it, or maybe not until they came to your class and I always find it fascinating the words that students pick and they say oh.
 
 173
-00:32:04.350 --> 00:32:18.840
-Because these numbers give you a pretty good idea already of the general abundance of works in these literature's and then the last column I also is the number of distinct repositories libraries or archives, which these these.
+00:31:08.910 --> 00:31:15.720
+i've learned what a concordance was going to this website and then the rest of the class will benefit from that as well.
 
 174
-00:32:20.100 --> 00:32:23.730
-Texts carriers are currently curated kept.
+00:31:19.080 --> 00:31:32.880
+This year, for the first time I also pointed students to early modern digital review, which is an existing reviews journal as James mentioned i'm one of the co editors, and this is published with Renaissance and Reformation on a soundstage a phone.
 
 175
-00:32:25.290 --> 00:32:29.370
-So this is sort of an unconventional way to do a comparative literature.
+00:31:34.080 --> 00:31:43.710
+Established Journal and we publish reviews of digital projects, so this year I could say to students, here are some established reviews by scholars.
 
 176
-00:32:30.390 --> 00:32:38.340
-But some interesting trends here can be observed already so first of all, what you see is that Dutch is a very average language in every respect.
+00:31:44.130 --> 00:31:56.850
+Thinking about how projects make meaning how they work, what works well with them is something that we have to continue doing, not just because projects change, but because our research questions change to.
 
 177
-00:32:39.060 --> 00:32:53.010
-And French with all of its cultural prestigious clearly the dominant literature in terms of texts and manuscripts you see that German comes in second has a striking the high abundance, so you can see that has a pretty low F1.
+00:31:59.070 --> 00:32:08.070
+When I teach this class I usually spend one session in advance going over an example project that is not a project that anyone will be.
 
 178
-00:32:54.150 --> 00:33:01.950
-So it doesn't have many singleton's Icelandic literature it's not the smallest data set in terms of size but.
+00:32:08.550 --> 00:32:20.970
+writing about and talking about and we look at how we review different things if, by the way, you are interested in pitching a review or a digital project to be reviewed by em Dr let me know.
 
 179
-00:33:02.520 --> 00:33:09.990
-Like Irish it actually ended up in a remarkably limited number of repositories if you compare this to be your literature's.
+00:32:23.310 --> 00:32:23.730
+Okay.
 
 180
-00:33:10.650 --> 00:33:29.580
-And then English finally it's actually similar in size to to touch, you could say but works in a corpus have a strikingly low abundance so here, especially the F two is surprisingly low, whereas the other one is unusually high, and of course that will have its effect on the the calculations.
+00:32:25.050 --> 00:32:31.710
+As this talk has outlined, there are a number of important websites, to be used in the teaching and research of Shakespeare.
 
 181
-00:33:30.990 --> 00:33:38.490
-So here what you see, is how we plotted to survival rates for each of these literature's and we did that using.
+00:32:32.010 --> 00:32:44.130
+it's equally important that educators and students are equipped to use these sites thinking critically about search results scholarly databases and digital projects might sound like a simple proposition.
 
 182
-00:33:39.150 --> 00:33:53.880
-Colonel density estimates So what does that mean for for each of the six languages, you will see a colored block and the Beak of those blobs is telling you which values for the survival rate of this literature are most likely.
+00:32:44.520 --> 00:32:48.450
+But actually grappling with these ideas is in no way easy.
 
 183
-00:33:55.410 --> 00:34:00.690
-And these numbers are expressed as a ratio between zero and one on the horizontal axis.
+00:32:48.960 --> 00:32:56.820
+It often means that I have to show students students will ask me questions, why does this not work on a website how Why is why is the search result coming up.
 
 184
-00:34:01.350 --> 00:34:11.250
-On the left, you see the survival rates that we estimated for for works and on the right, we show those for for documents, these are clearly much lower as opposed to be expected.
+00:32:57.180 --> 00:33:06.690
+And it will not be easily apparent to me, sometimes right, and so I have to say, well let's go look at the about page let's go figure this out together and we have, I have to model to them.
 
 185
-00:34:12.090 --> 00:34:20.700
-The dark blue block in the middle for Dutch shows you again how this language is fairly average 50% survival rate for works.
+00:33:07.410 --> 00:33:16.650
+That learning how to learn is about not knowing things and more knowing where to find information, sometimes right it's about.
 
 186
-00:34:21.300 --> 00:34:39.000
-But surprisingly French language of high prestige only does a little better and German, for instance comparatively has a much higher survival rate in either graph and what is interesting is that as relatively smaller literature's and you see the Icelandic and Irish.
+00:33:17.340 --> 00:33:29.760
+You don't have to have all the knowledge you just have to start knowing where to get the knowledge and although the majority of our students will not continue with careers as Shakespearean or humanities researchers, the kinds of.
 
 187
-00:34:48.570 --> 00:34:49.890
-surviving manuscripts.
+00:33:30.780 --> 00:33:42.150
+Preparation that ask them to become better critical thinkers and encouraging them to ask well framed questions of digital resources is actually going to help them well beyond their classroom.
 
 188
-00:34:51.150 --> 00:34:59.460
-So this is comparatively speaking a pretty high survival rates, but what you see, and this is actually looks pretty dramatic.
+00:33:43.320 --> 00:33:43.800
+Thank you.
 
 189
-00:35:00.000 --> 00:35:08.490
-What is dramatic, are the losses that many medieval English literature would have sustained, at least according to this model, those are the.
+00:33:48.480 --> 00:33:51.870
+Thanks Laura um since everyone's muted Oh, give me some Applause
 
 190
-00:35:08.910 --> 00:35:20.250
-Green blobs with the Left in these graphs so what you can see is that the English here are bottom of the league and which is, of course, related to those extreme F1 F2 values and.
-
-191
-00:35:21.540 --> 00:35:25.530
-We are currently trying to work towards a good explanation for this.
-
-192
-00:35:27.780 --> 00:35:32.700
-So Icelandic and Irish are really interesting in this experiments.
-
-193
-00:35:33.840 --> 00:35:38.040
-Because the results that we got for dummies is very interesting from an ecological perspective.
-
-194
-00:35:38.430 --> 00:35:47.160
-So if you ask an ecologist and she or he wouldn't be surprised by these values, because island so i've always sort of played a special role in ecology.
-
-195
-00:35:47.520 --> 00:36:05.130
-And it is well established that insular are more isolated places on the planet, have always managed to maintain higher levels of what they call endemic species diversity so it's not a coincidence, for instance, that darwin's Galapagos with all their unique species were islands.
-
-196
-00:36:06.240 --> 00:36:13.020
-So perhaps we should be more surprising facts about the low survival rates in england's than the high survival rates in Iceland.
-
-197
-00:36:13.620 --> 00:36:23.610
-But then again maybe England wasn't enough of an island to deserve that title because, after all, the Channel was a seed that was pretty easily crossed in the Middle Ages.
-
-198
-00:36:25.440 --> 00:36:37.110
-And so, one interesting graph to compare these literature's is this one which gives you a so called evenness profile it's very complicated to explain where this graph comes from.
-
-199
-00:36:37.950 --> 00:36:45.390
-But the main thing is that you should see that the curves for Irish an Icelandic and they behave radically different than than the other curves in the graph.
-
-200
-00:36:45.900 --> 00:36:57.090
-So all of these curves start at one, but after that the curse for the elderly literature's quickly drop, whereas you see that, for the other two insular curves devalue stay a much higher.
-
-201
-00:36:57.900 --> 00:37:04.350
-And such an evenness blots is essentially a very complicated way to show that in I sending an Irish.
-
-202
-00:37:04.860 --> 00:37:12.870
-The distribution of documents over works is much more evenly distributed so what you see is that, for instance in in German literature.
-
-203
-00:37:13.260 --> 00:37:24.510
-You have a small number of texts that attract most of the manuscripts So these are the predators, you could say in ecological terms like wolf combination backdate eat up all of the manuscripts.
-
-204
-00:37:25.830 --> 00:37:28.170
-So this is interesting because.
-
-205
-00:37:29.460 --> 00:37:38.790
-What you see here is that these islands literature's were probably more resilient to loss in the first place so think about that So if you have if you lose an Irish book.
-
-206
-00:37:39.510 --> 00:37:47.250
-It it's much less likely that you also lose a work, and when you lose a book in middle English why because they have more singleton's.
-
-207
-00:37:48.450 --> 00:38:04.830
-And so interesting when we think about the loss of medieval literature, we are often focused on post medieval factors like the Second World War, but what this result highlights is that the original the medieval shape of these literature's might just be as important.
-
-208
-00:38:06.900 --> 00:38:18.480
-So one aspect that we are also exploring RD dispersal patterns of these fragments are the geography of the repositories repository square these documents eventually ended up.
-
-209
-00:38:19.080 --> 00:38:26.130
-In the heat maps on this slide we sort of visualize the diaspora over the European continent of the text carriers initial.
-
-210
-00:38:26.760 --> 00:38:36.420
-This is for four languages and very preliminary but you see how French and German cover a very similar region they have a similar area surface.
-
-211
-00:38:36.930 --> 00:38:44.910
-But again, he would is remarkable, this is how weird middle English is acting, you can see how few middle English texts have been preserved on the continent.
-
-212
-00:38:45.270 --> 00:38:57.000
-And maybe this is somehow related to the low survival rates that we observed for English literature so maybe the migration or the ability to migrate, that is a relevant concept here.
-
-213
-00:38:58.050 --> 00:39:00.300
-interesting but puzzling observation.
-
-214
-00:39:02.010 --> 00:39:06.510
-Okay, so time to wrap up what are the main contributions that we hope to make with this work.
-
-215
-00:39:07.590 --> 00:39:16.920
-So, first of all, regarding document loss, the actual last books all of our numbers pretty much corroborate the previous estimates that we have from book historians.
-
-216
-00:39:17.490 --> 00:39:24.510
-I think the valuable thing here is that we use a completely different technique so that's interesting corroboration.
-
-217
-00:39:25.290 --> 00:39:39.750
-On the other hand, I think it's for the first time that we should be able to provide a large scale estimate of the number of loss works from medieval literature So here we don't even have a proper prior estimates, so this is very novel I think.
-
-218
-00:39:40.770 --> 00:39:45.090
-So third contribution is that in the past, people have mainly thought about.
-
-219
-00:39:45.570 --> 00:39:53.010
-Both medieval factors when they were thinking about the loss of my evil documents, like the wars are the fires that happened after the Middle Ages.
-
-220
-00:39:53.700 --> 00:40:09.660
-However, with that concept of evenness what we hope to highlight is the importance of the original shape of these literature's, so I think that some literature is for just more resilient to loss in the first place, by the way in which they were constructed.
-
-221
-00:40:11.340 --> 00:40:20.040
-And then, finally, what we hope to push with this researches is a research agenda where culture and ecology or study in a more joined fashion.
-
-222
-00:40:20.550 --> 00:40:39.120
-So I don't think there has to be this big divide between biology and the humanities, and they seem to be many aspects in which we can learn from these fields, learn from one another, so that's it, many thanks for for being here and i'd be happy to to answer questions if there are any.
-
-223
-00:40:43.770 --> 00:40:44.370
-Thanks like.
-
-224
-00:40:45.690 --> 00:40:46.650
-Everyone else's me.
+00:33:54.120 --> 00:33:57.150
+And also that reminds me I should stop the recording.
 

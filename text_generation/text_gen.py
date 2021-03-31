@@ -12,11 +12,11 @@ tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
 model = GPT2LMHeadModel.from_pretrained('gpt2')
 
 #add input and tokenise it
-prompt = 'There was nothing behind the door. Ingrid couldn’t believe it ended here.'
+prompt = 'She opened the cellar door.'
 inputs = tokenizer.encode(prompt, return_tensors = 'pt')
 
 #generate -- output is a series of indices
-outputs = model.generate(inputs, max_length = 50, do_sample = True, temperature = .7, top_k = 50)
+outputs = model.generate(inputs, max_length = 100, do_sample = True, temperature = .7, top_k = 50)
 
 #decode indices into words
 text = tokenizer.decode(outputs[0], skip_special_tokens = True)
