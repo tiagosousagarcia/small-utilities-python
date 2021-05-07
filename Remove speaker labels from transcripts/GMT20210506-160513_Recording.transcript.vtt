@@ -1,0 +1,922 @@
+WEBVTT
+
+1
+00:00:04.980 --> 00:00:11.880
+James Cummings: hi everyone and welcome to our most recent at new virtual visiting speaker.
+
+2
+00:00:12.660 --> 00:00:24.180
+James Cummings: And this time it's crystal struck, who is a professor of digital humanities at the University of treasure in Germany and co director of the career Center for digital humanities he's also.
+
+3
+00:00:24.750 --> 00:00:43.560
+James Cummings: Chair of the coast action distant reading for European literary history and President of the digital humanities Association for the German speaking area and tonight he's going to talk to us about computation or literary studies goes multi lingual challenges and lessons learned.
+
+4
+00:00:44.730 --> 00:00:46.620
+Christof Sch?ch: kristof yeah.
+
+5
+00:00:47.280 --> 00:00:51.000
+Christof Sch?ch: Welcome everyone it's great to be here thanks James for the invitation.
+
+6
+00:00:54.990 --> 00:00:55.410
+Christof Sch?ch: yeah.
+
+7
+00:00:56.580 --> 00:00:59.550
+Christof Sch?ch: competition or the Tuesday studies scores multilingual.
+
+8
+00:01:00.690 --> 00:01:05.610
+Christof Sch?ch: I will share my screen now hope everybody can see that.
+
+9
+00:01:09.120 --> 00:01:14.790
+Christof Sch?ch: yeah challenges and lessons learned so first of all, before I even get going.
+
+10
+00:01:15.870 --> 00:01:16.710
+Christof Sch?ch: This is really.
+
+11
+00:01:18.240 --> 00:01:20.760
+Christof Sch?ch: This talk is about a collaborative project so.
+
+12
+00:01:22.800 --> 00:01:33.180
+Christof Sch?ch: lots of people have been working on this on this project that i'm going to use as the main example of some of the challenges and lessons learned.
+
+13
+00:01:33.750 --> 00:01:41.790
+Christof Sch?ch: In multilingual competition or do studies and they they all contributed over the last three years to the cross section that was just mentioned.
+
+14
+00:01:42.420 --> 00:01:47.190
+Christof Sch?ch: Already distant reading for European literary history, so this is really a collaborative talk and.
+
+15
+00:01:47.820 --> 00:02:04.410
+Christof Sch?ch: Some of the things I talked about i've been involved very closely, others less closely because there's there's a lot of different things going on in this in this cross section, obviously, so why the focus on the Multi lingual aspect I think it's really.
+
+16
+00:02:05.760 --> 00:02:12.030
+Christof Sch?ch: it's really a recent trend in the last couple of years that this issue has seen a lot more visibility.
+
+17
+00:02:13.320 --> 00:02:21.450
+Christof Sch?ch: And just to pick just one example, one of my favorite examples is the data sitters club that Quinn dombroski and others animate.
+
+18
+00:02:22.230 --> 00:02:35.880
+Christof Sch?ch: That is really programmatically multilingual and many other examples, and so the l tech and construction example is really one one in a whole series of such projects.
+
+19
+00:02:37.230 --> 00:02:37.650
+Christof Sch?ch: Now.
+
+20
+00:02:39.030 --> 00:02:46.110
+Christof Sch?ch: What I want to talk about Basically, this is my business to have you have my talk i'll briefly introduce our tech.
+
+21
+00:02:47.730 --> 00:02:56.220
+Christof Sch?ch: And then talk about some issues in a bit more detail the composition criteria of this corpus encoding principles publication strategy.
+
+22
+00:02:56.610 --> 00:03:06.720
+Christof Sch?ch: And usage scenarios and I will put a focus on the composition criteria and the use of scenarios and just touch quickly on encoding principles and publication strategy.
+
+23
+00:03:07.230 --> 00:03:17.310
+Christof Sch?ch: Before I conclude, very briefly, so what is what is our tech, first of all, so it means European literary texts collection and it is.
+
+24
+00:03:18.210 --> 00:03:25.410
+Christof Sch?ch: being produced in the context of the cross section distant reading for European history, which is a research network.
+
+25
+00:03:25.890 --> 00:03:32.220
+Christof Sch?ch: That has been developed over the last has been developing over the last three three and a half years.
+
+26
+00:03:33.180 --> 00:03:40.950
+Christof Sch?ch: By now, they are 31 countries involved, mostly Europe but also in the US, the US is involved and Australia, for example.
+
+27
+00:03:41.490 --> 00:03:58.500
+Christof Sch?ch: And they about 200 researchers who have in some shape or other been involved in the in the action the central ambition really is to foster digital cross lingual research into the history of the European novel and we could argue about the terms multilingual and cross lingual.
+
+28
+00:03:59.550 --> 00:04:00.270
+Christof Sch?ch: And really.
+
+29
+00:04:01.320 --> 00:04:20.760
+Christof Sch?ch: I think the term cross lingual actually is, the better match here because we're not just trying to do, multiple languages independently alongside each other in a way, but we really try to enable research that that works on multiple connections, at the same time.
+
+30
+00:04:21.840 --> 00:04:25.680
+Christof Sch?ch: We try to yeah and we'll see how that how that works.
+
+31
+00:04:27.180 --> 00:04:36.360
+Christof Sch?ch: So the construction has a number of areas of areas of activity, obviously, so, first of all, we want to build that multilingual corpus of the European novel.
+
+32
+00:04:37.860 --> 00:04:42.270
+Christof Sch?ch: Which is what i'm focusing on today, as well as on the second point, we want to develop.
+
+33
+00:04:42.720 --> 00:04:50.730
+Christof Sch?ch: And also evaluate and use appropriate digital methods of analysis so appropriate for that multilingual material.
+
+34
+00:04:51.180 --> 00:05:03.270
+Christof Sch?ch: We want to think about the theoretical theoretical consequences of having digital data using digital methods for core concepts in literary history and literary theory, such as.
+
+35
+00:05:04.110 --> 00:05:12.510
+Christof Sch?ch: authorship period ization canonization things like that we of course want to create a network of researchers across Europe that.
+
+36
+00:05:13.110 --> 00:05:24.030
+Christof Sch?ch: That do this kind of research, and that has really been been happening and i'm very pleased about this, and this involves as well, capacity building, so we organize training, schools.
+
+37
+00:05:24.990 --> 00:05:41.190
+Christof Sch?ch: short term exchanges between researchers and we have been able to launch a couple of projects in different constellations of action participants that take what we started further or deeper in in various areas.
+
+38
+00:05:42.660 --> 00:05:51.630
+Christof Sch?ch: So i'll take the European literal texts collection what is that it's a corpus of the European novel for the time period 1842 1920.
+
+39
+00:05:53.040 --> 00:06:03.870
+Christof Sch?ch: And I think that question that we get most about lt is really why that period, why does it start in 1840, why does it end in 1920 and there are lots of reasons actually.
+
+40
+00:06:04.410 --> 00:06:14.190
+Christof Sch?ch: Mainly, they are related to four points, the first is production, so if we think about German, English and French.
+
+41
+00:06:14.910 --> 00:06:24.480
+Christof Sch?ch: Then there's no need to start as late as that, because the novel was already very actively you produced, even in the 17th and 18th centuries.
+
+42
+00:06:24.900 --> 00:06:39.840
+Christof Sch?ch: However, that's not the case in all of the European languages and European literary traditions that we look at so some of them started their own tradition of the novel only in the course of the 19th century, then there's the topic of availability.
+
+43
+00:06:42.120 --> 00:06:51.720
+Christof Sch?ch: The 19th century novel has been digitized a lot more than than the previous periods so it's a question of you know feasibility, can we pull this off.
+
+44
+00:06:52.560 --> 00:07:06.750
+Christof Sch?ch: there's a technical aspect related to ocr optical character recognition, it is it works, a lot better for 19th century materials, then for 18th century materials, for example, depending on the printing traditions in the different countries.
+
+45
+00:07:07.860 --> 00:07:16.260
+Christof Sch?ch: And finally, copyright is really the main reason that we stopped in 1920 because, with the European standard regime of copyright ending.
+
+46
+00:07:16.740 --> 00:07:27.810
+Christof Sch?ch: 70 years after the death of the author of a given novel of a given texts that means that if we stop in 1920 most of the novice that we would like to include.
+
+47
+00:07:29.280 --> 00:07:37.080
+Christof Sch?ch: are no longer under copyright are so so that we can publish them openly, which is of course what we wanted to be able to do.
+
+48
+00:07:38.430 --> 00:07:48.150
+Christof Sch?ch: Second, key goal or characteristic of LTE is that we plan to provide at least 10 different European languages collections in 10 different languages.
+
+49
+00:07:48.660 --> 00:07:59.790
+Christof Sch?ch: And at the moment we have eight of them complete so we're almost at that 10 and we have not just two more in progress, but 10 more in progress so there's a lot of interest in the.
+
+50
+00:08:00.270 --> 00:08:06.990
+Christof Sch?ch: Among the actual participants to have their national traditional their language based tradition present as well.
+
+51
+00:08:08.280 --> 00:08:14.880
+Christof Sch?ch: And then, these are not just any 100 novels language, but the idea is that the collections are roughly comparable.
+
+52
+00:08:15.300 --> 00:08:20.850
+Christof Sch?ch: between each other and that's why the composition criteria will be so important that we'll talk about them in a minute.
+
+53
+00:08:21.630 --> 00:08:30.180
+Christof Sch?ch: So some more key characteristics each corpus is meant to represent the variety of production so it's not about.
+
+54
+00:08:31.050 --> 00:08:41.550
+Christof Sch?ch: Producing a statistical sample that would be statistically representative of the of the population of the overall production but.
+
+55
+00:08:42.450 --> 00:08:50.340
+Christof Sch?ch: We can't do that because we in almost all of the cases we don't know we don't have that population defined.
+
+56
+00:08:51.210 --> 00:09:01.590
+Christof Sch?ch: For the British novel that's the case, there is a bibliography for some other traditions it's, also the case, but generally we don't have that information, so we can't we can't do that.
+
+57
+00:09:02.070 --> 00:09:11.070
+Christof Sch?ch: And also, even if we did that would be practical other practical limitations in terms of you know, having to digitize most of what we would like to include.
+
+58
+00:09:12.540 --> 00:09:24.420
+Christof Sch?ch: The text are all encoded in xml ti and our will be linguistically annotated, especially for part of speech and named entities and, of course, everything is published under open licenses.
+
+59
+00:09:24.780 --> 00:09:36.540
+Christof Sch?ch: The texts themselves are in the public domain anyways and we don't we try not to place unnecessary restrictions on you know anything else metadata encoding etc.
+
+60
+00:09:37.530 --> 00:09:46.590
+Christof Sch?ch: You can find out more about Ltd under the link that is presented here, and the latest release is from April so pretty recent.
+
+61
+00:09:47.250 --> 00:09:58.710
+Christof Sch?ch: With 14 different collections, not all of them complete but for total of 1200 novels So you see that the average is somewhere in the 1980s or 90s for for each collection.
+
+62
+00:10:00.120 --> 00:10:10.800
+Christof Sch?ch: Now this is, this is the overview of the current state of the corpus and you see that there are 18 collections and 18 different languages.
+
+63
+00:10:11.250 --> 00:10:20.490
+Christof Sch?ch: And so on the left in the right frame you see the languages, on the one hand, and then the number of texts that are included.
+
+64
+00:10:20.820 --> 00:10:33.900
+Christof Sch?ch: And you can see, this we are we have collections at all stages of the process, some of them are complete with 100 novels others are somewhere in the middle, with let's say 8458 and some are really starting out.
+
+65
+00:10:34.440 --> 00:10:40.680
+Christof Sch?ch: With just two or in the low 20s different collections and we have well.
+
+66
+00:10:41.280 --> 00:10:53.040
+Christof Sch?ch: A few more months, maybe a bit more to go, and so we hope to complete, as many of these collections as possible, but for some languages, it will, it will be tough and we will not reach the 100 novels but even then.
+
+67
+00:10:53.640 --> 00:10:59.010
+Christof Sch?ch: You know, some some of the languages have really not seen such corporate online and at all.
+
+68
+00:11:00.270 --> 00:11:15.570
+Christof Sch?ch: Now let's go into the first of the core issues, the composition criteria for Celtic so first of all, they are some eligibility criteria, so what kinds of texts can be included at all, no way, so they have to be novels.
+
+69
+00:11:16.260 --> 00:11:23.190
+Christof Sch?ch: And we have a very minimal definition of what a novelist we just say its narrative fictional pros of a certain length.
+
+70
+00:11:23.910 --> 00:11:34.770
+Christof Sch?ch: And we don't formally define narrative and fictional and pros, but we do formula define the minimum length criterion, they have to be at least 10,000 words.
+
+71
+00:11:35.550 --> 00:11:45.390
+Christof Sch?ch: Which is debatable and arbitrary, obviously, but it sounded like a good idea to time but to be honest, the length criteria and we'll get to.
+
+72
+00:11:45.810 --> 00:11:52.200
+Christof Sch?ch: It in a bit more detail in a minute is one of the most controversial criteria that we have surprisingly.
+
+73
+00:11:52.830 --> 00:12:00.810
+Christof Sch?ch: So all the novels have to be written originally in the language of the collection, so that no translations in there again pretty debatable, but that's what we set out to do.
+
+74
+00:12:01.290 --> 00:12:12.690
+Christof Sch?ch: And we would like those novels to have been published, either at for immediately at first in the first publication, or at least as well in Europe so that they participate in the European tradition of the know.
+
+75
+00:12:14.580 --> 00:12:25.980
+Christof Sch?ch: Because, after all, it's a you funded project so that seemed seemed fair and we do we it's it's already a big the scope is already quite big so we needed to put a limit on it somewhere.
+
+76
+00:12:26.610 --> 00:12:34.650
+Christof Sch?ch: Now the composition criteria, a little bit more complex, they have, as the key objective to ensure this compatibility of the collections.
+
+77
+00:12:35.130 --> 00:12:44.610
+Christof Sch?ch: but also to make sure that we really do represent the diversity of the novel production and in doing so that we go beyond the canon and beyond.
+
+78
+00:12:45.120 --> 00:12:55.890
+Christof Sch?ch: The novels that you usually find online anyways so, because otherwise there's no real added value to this particular collection of corpus.
+
+79
+00:12:56.640 --> 00:13:08.940
+Christof Sch?ch: Now the criteria we do take into account, are the following so and sorry for there's a missing translation and because the slides are multilingual as well, they are available in three different languages.
+
+80
+00:13:09.720 --> 00:13:29.700
+Christof Sch?ch: So, and here there's a missing translation, so that the period of publication that should be we have we just split the period into four periods and we try to have novels having a similar proportion of novels from each of these periods, so that we can we don't compare you know, the French.
+
+81
+00:13:30.810 --> 00:13:42.360
+Christof Sch?ch: Early 19th century novels to the British late 19th century novels but that really every collection has a bit of everything similarly for the length of the.
+
+82
+00:13:43.110 --> 00:13:55.260
+Christof Sch?ch: Of the novels we simply distinguish between short, medium and long novels the short ones up to 50,000 words and the long ones are over 100,000 words.
+
+83
+00:13:55.920 --> 00:14:06.000
+Christof Sch?ch: And I said this is controversial and it is indeed because we noticed and really that's a learning process we didn't really know in the beginning, when we set out.
+
+84
+00:14:07.980 --> 00:14:11.400
+Christof Sch?ch: In every language based literary tradition.
+
+85
+00:14:13.320 --> 00:14:16.620
+Christof Sch?ch: The distribution of novel length can be quite different.
+
+86
+00:14:18.300 --> 00:14:22.170
+Christof Sch?ch: So some traditions, for example, to Greek.
+
+87
+00:14:23.520 --> 00:14:38.040
+Christof Sch?ch: novel tradition doesn't have a lot of long novels and for them actually these criteria are too strict and they will have a very hard time finding one third 130 around 30 long novels at all.
+
+88
+00:14:38.580 --> 00:14:54.000
+Christof Sch?ch: And, in other cases it's more the case that, for certain time periods let's say the early 20th century with the modernist novel when others tend to be shorter in that period it's it might be difficult to find long novels.
+
+89
+00:14:55.080 --> 00:15:01.500
+Christof Sch?ch: In other cases it's it's particularly combinations with author gender that are rare and.
+
+90
+00:15:03.030 --> 00:15:10.560
+Christof Sch?ch: So we don't just look at each criteria on separately, but also in combination, so we try to have a certain proportion of.
+
+91
+00:15:11.340 --> 00:15:25.500
+Christof Sch?ch: novels by male and female authors, overall, but also within each time period and that makes these criteria actually really challenging and we don't have perfect results obviously everywhere.
+
+92
+00:15:27.510 --> 00:15:30.990
+Christof Sch?ch: yeah author gender is another controversial one, because again.
+
+93
+00:15:32.100 --> 00:15:46.170
+Christof Sch?ch: A number of novels written by female authors is first of all, not clearly known in all traditions, it can also diverged considerably between different traditions.
+
+94
+00:15:46.710 --> 00:15:59.940
+Christof Sch?ch: So for the British Navi we found out because there's this very good bibliography that really there are about 50% of the novels written by female authors, which surprised me and I could hardly believe it.
+
+95
+00:16:01.290 --> 00:16:09.930
+Christof Sch?ch: But, but that seems to be the case, whereas in other traditions We only know of novels by female authors.
+
+96
+00:16:11.370 --> 00:16:21.420
+Christof Sch?ch: that make up maybe 10% of the production and so what is an appropriate proportion, should it be proportionate to what we know about the individual traditions.
+
+97
+00:16:22.350 --> 00:16:33.120
+Christof Sch?ch: Should it always be 5050 then it's impossible for some of the collections, but what about compatibility, then so we ended up saying you have to have at least 10% of the novels written by a.
+
+98
+00:16:33.750 --> 00:16:44.520
+Christof Sch?ch: Female authors and it can be up to 50% and, ideally, it would be somewhere in between, which is really a pretty complex way of defining.
+
+99
+00:16:45.150 --> 00:17:02.520
+Christof Sch?ch: Seemingly seemingly simple formal criterion, and not even speaking about the diverse and mixed category and the category of authors, who used a different gender pen name to their let's say biological.
+
+100
+00:17:04.020 --> 00:17:04.770
+Christof Sch?ch: Sex now.
+
+101
+00:17:05.910 --> 00:17:12.660
+Christof Sch?ch: And then there's the criterion of the reprint count, which is really a way of measuring or operationalize.
+
+102
+00:17:13.830 --> 00:17:16.320
+Christof Sch?ch: The level of anonymity of a novel.
+
+103
+00:17:17.460 --> 00:17:23.490
+Christof Sch?ch: And we made a point of looking at that, in this time period 1972 2010.
+
+104
+00:17:24.510 --> 00:17:28.050
+Christof Sch?ch: around you know 1989 basically.
+
+105
+00:17:29.280 --> 00:17:47.130
+Christof Sch?ch: So we wanted to make sure that we would include similar proportions of novels that are still being read regularly today or in the recent past let's say and others that were more or less forgotten in more recent times.
+
+106
+00:17:48.330 --> 00:17:59.190
+Christof Sch?ch: Last criterion, the number of novels for author nine to 11 authors can be represented, with three novels and everything else should be one novel by one author.
+
+107
+00:17:59.790 --> 00:18:12.960
+Christof Sch?ch: This really has the purpose of making sure that on the one hand we can do some authorship attribution experiments and for those you need office represented, with more than one novel.
+
+108
+00:18:14.010 --> 00:18:22.170
+Christof Sch?ch: But on the other hand, we want to you know we have this goal of representing the diversity of the novel production, and for that it's simply necessary to make sure that.
+
+109
+00:18:22.680 --> 00:18:43.500
+Christof Sch?ch: Many different authors are represented at not so that no collection is dominated you know by a few famous very productive usually male authors like you know PASOK Zola and they haven't in the French collection, for example, or Dickens let's say in the for the British collection.
+
+110
+00:18:45.870 --> 00:18:46.890
+Christof Sch?ch: yeah the result.
+
+111
+00:18:48.120 --> 00:18:56.640
+Christof Sch?ch: does look quite varied depending on the collection, that you look at on the left, we have the British novel a collection.
+
+112
+00:18:58.290 --> 00:19:12.060
+Christof Sch?ch: That has 100 novels and it has what we call it easy five actually if i've see it's the l tech corpus composition criteria compliance score something like that.
+
+113
+00:19:13.620 --> 00:19:28.080
+Christof Sch?ch: And it has a perfect score, and you can see that the well chosen colors pink and blue here for the agenda for each sub period and each length category give a pretty balanced.
+
+114
+00:19:29.370 --> 00:19:40.470
+Christof Sch?ch: picture, for example here on the top right, you would have short novels of the first time period, and they are two novels by a female Office and to buy male authors, this is what this.
+
+115
+00:19:40.890 --> 00:19:50.310
+Christof Sch?ch: mosaic plot basically shows, and you see that it's very equally distributed among the different categories, whereas for the Romanian collection on the right.
+
+116
+00:19:51.420 --> 00:20:02.790
+Christof Sch?ch: it's the pictures a little bit different actually it's, this is not the right, this is, this is not the right image, let me just improve on this.
+
+117
+00:20:04.140 --> 00:20:08.790
+Christof Sch?ch: This is the English one again so let's let's look at the Romanian one.
+
+118
+00:20:10.080 --> 00:20:16.350
+Christof Sch?ch: Yes, this is the Romanian one, so this is what we should be looking at i'm sorry for that little mix up.
+
+119
+00:20:17.490 --> 00:20:31.170
+Christof Sch?ch: And you see first of all, the distribution in the time period is very different and very unbalanced in a way, much more challenging situation and the gender distribution is.
+
+120
+00:20:32.340 --> 00:20:35.100
+Christof Sch?ch: Not as equally distributed.
+
+121
+00:20:36.360 --> 00:20:56.070
+Christof Sch?ch: It does fulfill the criteria of at least 10% novels by female authors, but it cannot achieve that kind of balance that we saw in the English collection, simply because of the the production, but also the state of the digitization and so let's go let's try and go back.
+
+122
+00:20:57.270 --> 00:20:57.540
+Christof Sch?ch: here.
+
+123
+00:20:59.250 --> 00:21:08.970
+Christof Sch?ch: So it's much more difficult to obtain the balance here, and this leads to Basically, this is just one example, and every collection has its own you know challenges.
+
+124
+00:21:10.110 --> 00:21:21.720
+Christof Sch?ch: But what it leads to basically is the is what I call the diversity paradox, so we have three competing objectives here one is compatibility of the collections and that.
+
+125
+00:21:22.290 --> 00:21:42.360
+Christof Sch?ch: is basically enabled by strict criteria, because you have to have some you know non canonized authors some novels by female authors some you know from each of the time periods, and if you if you're very strict with this you basically automatically are forced to to have similar collections.
+
+126
+00:21:43.710 --> 00:21:44.220
+Christof Sch?ch: Second.
+
+127
+00:21:45.240 --> 00:21:53.310
+Christof Sch?ch: objective is this broad diversity of texts and again strict criteria basically automatically lead to that if you respect them.
+
+128
+00:21:53.790 --> 00:22:00.780
+Christof Sch?ch: However, we also aim at the diversity of the literary traditions represented in our tech, so we do we don't.
+
+129
+00:22:01.260 --> 00:22:13.260
+Christof Sch?ch: We do want to have you know, the Hungarian and Romanian Serbian and the Ukrainian collection in there, and for them if the criteria are too strict.
+
+130
+00:22:14.070 --> 00:22:37.770
+Christof Sch?ch: They simply can't put together a collection, so we need to balance these two competing needs and key strategy to respond to this challenge has been to have these flexible targets in a way, so to say, at least 10% novels by female authors ideally around 30 and you can have up to 50.
+
+131
+00:22:39.030 --> 00:22:49.200
+Christof Sch?ch: That means that compatibility is some what ensured a certain minimum of diversity is also insured, but the bar is not too high for those languages.
+
+132
+00:22:49.590 --> 00:23:01.170
+Christof Sch?ch: For those literary traditions, where there hasn't been a lot of production by female authors or we don't know about it, or it hasn't been digitized or we cannot digitize enough of it in a way to include it.
+
+133
+00:23:02.700 --> 00:23:10.800
+Christof Sch?ch: So that's that's basically our attempt to sneak out of this conundrum or this diversity paradox.
+
+134
+00:23:12.360 --> 00:23:23.400
+Christof Sch?ch: So I know this has been a pretty technical part with these criteria, but we do get a lot of questions about this, so I thought it's worth spending a bit of time on it now let's move on to some of the.
+
+135
+00:23:24.840 --> 00:23:25.710
+Christof Sch?ch: Easier parts.
+
+136
+00:23:27.240 --> 00:23:45.180
+Christof Sch?ch: encoding principles there's nothing really magical happening there, especially if you are in an xml ti person or someone fluent in digital editing, it is very simple xml ti, but we do have three levels of encoding.
+
+137
+00:23:47.100 --> 00:24:00.600
+Christof Sch?ch: A level zero with really minimal ti encoding whether you have some metadata and a header that is pretty standard across all levels and then simply a little bit of structure the chapters and the paragraphs and maybe some some.
+
+138
+00:24:01.650 --> 00:24:12.990
+Christof Sch?ch: Some highlights like it's Alex but really not a lot more than we have a level one encoding that is a bit more semantic in a way, so we try to convert those those high.
+
+139
+00:24:14.100 --> 00:24:24.300
+Christof Sch?ch: Those high markup into things like foreign for foreign phrases or words and m for emphasis etc or titles.
+
+140
+00:24:25.620 --> 00:24:27.630
+Christof Sch?ch: And then we have a level two, which is.
+
+141
+00:24:28.710 --> 00:24:36.060
+Christof Sch?ch: ti with token level linguistic annotation especially part of speech, but also named entities and but Level two is really still.
+
+142
+00:24:36.570 --> 00:24:55.470
+Christof Sch?ch: In development now for the slightly technically inclined, this is, of course, controlled by a set of schemas the schemas are connected with each other, via this process of changing that James might may be able to explain better than I, I can.
+
+143
+00:24:57.450 --> 00:25:01.230
+Christof Sch?ch: that's something that Luke put in place Lupo not who is working with us.
+
+144
+00:25:02.640 --> 00:25:10.080
+Christof Sch?ch: So we have validation with real accidentally schemas and schema tron to be able to also check, you know certain structural constraints.
+
+145
+00:25:10.620 --> 00:25:26.370
+Christof Sch?ch: And the validation is social enforced, as I like to say bye Lupo not who really make sure that we don't publish anything that hasn't been validated we do try to avoid his scrutiny, but he usually catches us at some point.
+
+146
+00:25:28.080 --> 00:25:30.510
+Christof Sch?ch: yeah then of course we acquired some metadata.
+
+147
+00:25:31.530 --> 00:25:37.440
+Christof Sch?ch: The competition, I mean the data that we need in order to check the composition criteria, of course, is coated there.
+
+148
+00:25:37.710 --> 00:25:47.010
+Christof Sch?ch: there's some provenance information, the digital source that we use the print source that it relies on or that it comes from, if we know it, and the first edition of the novel.
+
+149
+00:25:48.180 --> 00:26:00.150
+Christof Sch?ch: Whenever we we know it, which we usually do then optionally the type of the novel, for example, to sub genre of the novel or the narrative perspective is it a memoir novel or is it a third person novel things like that.
+
+150
+00:26:01.260 --> 00:26:04.050
+Christof Sch?ch: But these are optional, because they are really tricky to.
+
+151
+00:26:04.890 --> 00:26:13.200
+Christof Sch?ch: To a certain in many cases, especially the sexual information and, if you want to model this correctly, you need to do more than just put some keywords.
+
+152
+00:26:13.560 --> 00:26:22.410
+Christof Sch?ch: There, and finally, some texture characteristics, especially whether we modernize the text or not, or whether we use a modernized text or an original one.
+
+153
+00:26:23.370 --> 00:26:41.190
+Christof Sch?ch: The alphabet whether it's a Latin or Cyrillic alphabet or some transition alphabet, for example in Romanian we have some a phase where some transition alphabet is used, honestly, I can tell you much more about that, and of course the encoding level that is that that that the version has.
+
+154
+00:26:42.960 --> 00:26:47.190
+Christof Sch?ch: The alphabet issue is, by the way, something that I completely underestimated.
+
+155
+00:26:47.940 --> 00:27:01.440
+Christof Sch?ch: and several of our language traditions change alphabets in the course of that period 1842 1920, for example, Serbian and Romanian with this transition alphabet and others had.
+
+156
+00:27:02.400 --> 00:27:10.950
+Christof Sch?ch: Language normalization pushes that that I didn't expect to happen late in the 19th century, but they do and it's really.
+
+157
+00:27:11.850 --> 00:27:25.560
+Christof Sch?ch: it's really simply ignorance on my part on our part, when we designed the project and we learned a lot about the incredible diversity of the histories of the novels in different countries already just by trying to do this.
+
+158
+00:27:26.700 --> 00:27:37.590
+Christof Sch?ch: Now the publication strategy is also very simple, on the one hand, it is oriented towards the needs of the project, so we use github as the space where we collaborate, where we curate those connections.
+
+159
+00:27:38.430 --> 00:27:52.560
+Christof Sch?ch: We publish releases regularly with a dui through the nodal and that's where you can also download them as a zip package and where you can graph well where were the references to do I references will lead you.
+
+160
+00:27:53.940 --> 00:28:03.120
+Christof Sch?ch: We have this overview that I already showed on on github as well, and then for the needs of distribution in a way beyond the normal.
+
+161
+00:28:03.450 --> 00:28:14.820
+Christof Sch?ch: We are currently experimenting with different platforms, one of them is ti publisher another is the gums platform from god's university or the text with repository.
+
+162
+00:28:15.690 --> 00:28:24.180
+Christof Sch?ch: From gutting and state and university library and, hopefully, we have a new project a follow up project called CLS in for.
+
+163
+00:28:24.750 --> 00:28:38.790
+Christof Sch?ch: That is that we have just that we're just launching and hopefully we will be able to publish ltv through that platform as well just to give you an idea how this looks like this is the starting page of the github.
+
+164
+00:28:39.930 --> 00:28:47.340
+Christof Sch?ch: organization for our tech where you see some of the people, contributing here on the right to the various Cobra.
+
+165
+00:28:47.910 --> 00:28:54.780
+Christof Sch?ch: This is there's another Community where all these different corporate end up, and this is an example, one example of the.
+
+166
+00:28:55.650 --> 00:29:00.960
+Christof Sch?ch: Of the distribution platforms that we experiment with here to to a publisher and you see on the left.
+
+167
+00:29:01.680 --> 00:29:10.980
+Christof Sch?ch: The facets language period author gender size and reprint count that allow you to put together, you know your own custom designed.
+
+168
+00:29:11.580 --> 00:29:23.190
+Christof Sch?ch: Sub collection across languages are focused on by gender or time period or size of the numbers, etc, and then you know download them as a package for analysis, for example.
+
+169
+00:29:24.900 --> 00:29:38.490
+Christof Sch?ch: So last point, and this, I will develop a little bit more, but actually it's just some examples as well, so usage scenarios for analytics or multilingual analysis scenarios, there are a couple of them.
+
+170
+00:29:39.060 --> 00:29:51.270
+Christof Sch?ch: They all share some objectives we are trying to adapt existing statistical methods to these multiple European languages and we try to evaluate these methods in a multilingual across lingual context.
+
+171
+00:29:51.900 --> 00:30:00.360
+Christof Sch?ch: And, in particular, I think something that that is becomes possible now with our tech is to go beyond you know the usual suspects.
+
+172
+00:30:01.380 --> 00:30:13.110
+Christof Sch?ch: English, German and French and really look into more languages that have received a lot less attention when these kinds of methods are being developed so the examples I will mention on.
+
+173
+00:30:14.610 --> 00:30:16.890
+Christof Sch?ch: Our include include the following.
+
+174
+00:30:18.300 --> 00:30:30.450
+Christof Sch?ch: So there's work on linguistic annotation, how can we annotate all these multiple languages in a way that will allow comparative analysis, so we we.
+
+175
+00:30:30.960 --> 00:30:42.600
+Christof Sch?ch: The challenge really is that each language will use a different tagore or tagging model, and so a different tax ID as well, and we need to match.
+
+176
+00:30:43.260 --> 00:30:53.700
+Christof Sch?ch: To map those taxes on to share tax ID so that we can make meaningful comparisons between the languages in terms of you know distributions and frequencies of part of speech.
+
+177
+00:30:55.140 --> 00:31:03.420
+Christof Sch?ch: This is a bit less of a problem for the named entities, because the inventory of of texts, of course, much smaller, but here the main challenge is really that.
+
+178
+00:31:03.780 --> 00:31:13.140
+Christof Sch?ch: literary texts are quite challenging in terms of named entity recognition anyways and then to do this in multiple languages, at the same time is is a challenge.
+
+179
+00:31:13.590 --> 00:31:20.040
+Christof Sch?ch: identification of direct speech is an interesting one that I will talk about a little bit more, we have an analysis of the titles.
+
+180
+00:31:20.820 --> 00:31:30.540
+Christof Sch?ch: Of the novels that also has a specific strategy of of how to do this across languages, and then we have a study in progress on standard metric authorship retribution.
+
+181
+00:31:31.560 --> 00:31:34.650
+Christof Sch?ch: So just a few more words about identification of direct speech.
+
+182
+00:31:35.940 --> 00:31:48.540
+Christof Sch?ch: That sounds like a trivial trivial task, but it really isn't because the type of graphical conventions are very variable between the different languages.
+
+183
+00:31:49.110 --> 00:32:00.570
+Christof Sch?ch: And also depend a lot on the time period on the printer so it's really not that easy to identify the direct speech parts of a novel.
+
+184
+00:32:01.020 --> 00:32:15.360
+Christof Sch?ch: reliably across but even within one language, but especially across languages, and so, in order to to make some progress with this challenge one a group from from among the action.
+
+185
+00:32:17.010 --> 00:32:29.310
+Christof Sch?ch: Used multilingual sentence embedding to do this so it's a instead of using now almost traditional word embedding they used sentence and weddings and.
+
+186
+00:32:30.570 --> 00:32:41.640
+Christof Sch?ch: multilingual version of those and managed to surpass the baseline performance, quite clearly, and so the the performance, the F1 score.
+
+187
+00:32:42.150 --> 00:32:51.630
+Christof Sch?ch: For correctly recognizing direct speech was around 0.89 for all the different nine languages that were studied here.
+
+188
+00:32:52.170 --> 00:33:04.410
+Christof Sch?ch: with very little variation I was actually surprised by that, so this is a pretty solid performance that we do hope to improve and we do hope to cover more languages, but this is very, very promising, in fact.
+
+189
+00:33:07.590 --> 00:33:13.200
+Christof Sch?ch: Second example is the title analysis, this is a forthcoming paper by another group of.
+
+190
+00:33:14.370 --> 00:33:28.290
+Christof Sch?ch: Authors from from among the cost action and what they did here is basically they took all the titles of all the novels in in attic and collaboratively so with people who.
+
+191
+00:33:30.120 --> 00:33:42.750
+Christof Sch?ch: Have a command of all the different languages and they annotated them with a schema annotation schema basically creates comparable language independent data so, for example, as we see in this example.
+
+192
+00:33:43.140 --> 00:33:54.420
+Christof Sch?ch: Is there a place that is mentioned in a title and if, yes, which one is there person that has mentioned If yes, what is the name, what is the status, what is the sex.
+
+193
+00:33:56.820 --> 00:34:12.600
+Christof Sch?ch: Some formal characteristics, is it a two part title, what kind of separation character, do we find is there a genre indicator and which one etc, and you know some more some more information about the titles, so that they become.
+
+194
+00:34:13.770 --> 00:34:19.230
+Christof Sch?ch: That they take this becomes available for analysis across all the languages.
+
+195
+00:34:19.560 --> 00:34:35.250
+Christof Sch?ch: And, of course, this is combined with the metadata that we have from the from the corporate on each novel and just as one example of what what you can do with this is, for example, simply look at the number of words in each title in different time periods and.
+
+196
+00:34:36.960 --> 00:34:46.110
+Christof Sch?ch: yeah it was interesting for me to see that actually a lot of the titles are quite short so 234 words is the dominant title length.
+
+197
+00:34:47.970 --> 00:34:48.990
+Christof Sch?ch: And this is true.
+
+198
+00:34:50.280 --> 00:34:58.080
+Christof Sch?ch: for all time periods, but there's also a considerable number of pretty long titles so 10 to 22 words.
+
+199
+00:34:59.160 --> 00:35:18.900
+Christof Sch?ch: So they are yeah 40 titles that we found that are really quite long and there are lots you know many other results that that this type of study comprises, but this is just an example of how you go beyond the individual languages basically by by.
+
+200
+00:35:20.340 --> 00:35:25.110
+Christof Sch?ch: Moving on to a level that is language, independent and joining your data on that on that level.
+
+201
+00:35:26.190 --> 00:35:36.240
+Christof Sch?ch: Now the final example of usage scenarios cemeteries are standard metric authorship attribution here, we have just two examples to dental grams that show.
+
+202
+00:35:37.170 --> 00:35:44.070
+Christof Sch?ch: The similarity of texts to each other and the clustering and what you can see here is so on the left, we have the French.
+
+203
+00:35:44.670 --> 00:35:55.980
+Christof Sch?ch: The French corpus, and so this is the part of the corpus that that consists of three novels per author so it's just a subset of its of each corpus.
+
+204
+00:35:56.520 --> 00:36:07.710
+Christof Sch?ch: But what you see here is that the French for the French corpus our current standard methods baseline work perfectly so each cluster is a perfect set of three authors.
+
+205
+00:36:09.120 --> 00:36:20.070
+Christof Sch?ch: Whereas for the Romanian and i'm sorry to be using Romanian as the as the challenging language here again, the Romanian collection is.
+
+206
+00:36:20.550 --> 00:36:31.200
+Christof Sch?ch: A lot more tricky for the algorithm so we do have some clean nice author clusters, but we do have a lot of diverging clusters as well here's a UNESCO.
+
+207
+00:36:31.950 --> 00:36:41.160
+Christof Sch?ch: That is, you know, together with this other author, we have one single one up here that isn't with the others, you know lots of little problems and.
+
+208
+00:36:44.640 --> 00:36:54.300
+Christof Sch?ch: We can obviously compare this also with a look at this in a different way in a slightly more evaluative way, we can look at the performance.
+
+209
+00:36:54.870 --> 00:37:08.400
+Christof Sch?ch: of different algorithms at different parameters for different languages and we see let's pick the French one again, so the French one you see with this algorithm as data.
+
+210
+00:37:09.870 --> 00:37:11.700
+Christof Sch?ch: is pretty much perfect.
+
+211
+00:37:13.200 --> 00:37:20.550
+Christof Sch?ch: Starting starting around here with 350 words and it just stays there, so it works really well.
+
+212
+00:37:21.210 --> 00:37:36.120
+Christof Sch?ch: Whereas for the Romanian one if we pick out that one again it kind of plateaus at 0.7 70% accuracy, for all of the algorithms all the parameters that we tried and now the interesting questions, of course, why is that the case.
+
+213
+00:37:37.350 --> 00:37:42.270
+Christof Sch?ch: It could be that the Romanian corpus, in itself, is just much more difficult.
+
+214
+00:37:43.920 --> 00:37:59.730
+Christof Sch?ch: I suspect, for example, that the generic variety at the moment is less pronounced in the Romanian corpus meaning than in the French corpus, meaning that a lot more novels are similar in terms of genre and themes.
+
+215
+00:38:00.210 --> 00:38:15.630
+Christof Sch?ch: and would therefore be more difficult to tell apart for the organism, whereas the French corpus is really very diverse and even those office with with three novels are quite you know distinct so it might be an easier corpus, but it might also be that.
+
+216
+00:38:17.220 --> 00:38:27.990
+Christof Sch?ch: The algorithms that we have used up to now for English in 80% of the cases and then for German and French sometimes that they are just optimized or happened to work particularly well.
+
+217
+00:38:28.650 --> 00:38:44.670
+Christof Sch?ch: With languages other than Romanian and we really need to do more research to find to find out but it's a typical situation, so you really need a large Cobra to make these tests, more reliable than just this little set of 30 novels.
+
+218
+00:38:45.720 --> 00:38:55.740
+Christof Sch?ch: engineered to try a lot of different parameters and algorithms to really find out what's going on, and especially also, of course, look at the composition of the corporate that go into it.
+
+219
+00:38:56.910 --> 00:39:06.180
+Christof Sch?ch: And with that, I would like to conclude, very briefly, my initial question was what is l tech, and of course the key the obvious.
+
+220
+00:39:06.540 --> 00:39:15.900
+Christof Sch?ch: Answer it's a multilingual resource and that's why I centered this talk around not liberalism, but it's a lot more as well, I think it's really a learning opportunity.
+
+221
+00:39:16.440 --> 00:39:24.720
+Christof Sch?ch: For collaborative research because of corporates like that you can do on your own because you need knowledge of all those different literary traditions.
+
+222
+00:39:25.170 --> 00:39:37.710
+Christof Sch?ch: All the different you know taggers and language models so it has to be such a European endeavor, and so the Cross section has has been a perfect match, I think, for this kind of research.
+
+223
+00:39:38.850 --> 00:39:49.890
+Christof Sch?ch: I hope that LTE is becoming a rallying point for a European multilingual community of people interested in digital approaches approaches to literary history.
+
+224
+00:39:51.270 --> 00:40:01.710
+Christof Sch?ch: I hope as well that it is becoming a foundation for the development and evaluation and improvement of cross lingual methods and the examples that i've showed I think are.
+
+225
+00:40:02.580 --> 00:40:14.910
+Christof Sch?ch: Good examples or good pointers into that direction and, of course, I hope that it can be a start for history of European literature that would be truly digital multilingual and diverse Thank you.
+
+226
+00:40:19.080 --> 00:40:19.380
+yep.
+
+227
+00:40:22.620 --> 00:40:24.690
+James Cummings: All applaud since everybody else's.
+
+228
+00:40:24.960 --> 00:40:25.620
+Christof Sch?ch: yeah.
+
+229
+00:40:25.650 --> 00:40:27.540
+Christof Sch?ch: Thank you very much, thanks, James.
+
+230
+00:40:28.800 --> 00:40:34.320
+James Cummings: Amazingly interesting and a lot of work that has gone on in stature.
+

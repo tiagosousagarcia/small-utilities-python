@@ -1,762 +1,922 @@
 WEBVTT
 
 1
-00:00:03.629 --> 00:00:09.870
-hi everyone and welcome to our latest at new virtual visiting speaker.
+00:00:04.980 --> 00:00:11.880
+hi everyone and welcome to our most recent at new virtual visiting speaker.
 
 2
-00:00:11.070 --> 00:00:22.140
-This week we have well this week, this month we have Dr Laura Estill i'm Dr Laura Estill is an associate professor of English at St Francis Xavier University in Canada.
+00:00:12.660 --> 00:00:24.180
+And this time it's crystal struck, who is a professor of digital humanities at the University of treasure in Germany and co director of the career Center for digital humanities he's also.
 
 3
-00:00:22.500 --> 00:00:41.970
-And holds a prestigious tier to Canada research chair and digital humanities Recent publications that at least I remember include dramatic extracts in the 17th century English manuscripts as well as an edited collection of early British drama in manuscript which cannot.
+00:00:24.750 --> 00:00:43.560
+Chair of the coast action distant reading for European literary history and President of the digital humanities Association for the German speaking area and tonight he's going to talk to us about computation or literary studies goes multi lingual challenges and lessons learned.
 
 4
-00:00:44.100 --> 00:00:44.550
-I think.
+00:00:44.730 --> 00:00:46.620
+kristof yeah.
 
 5
-00:00:45.840 --> 00:00:47.700
-she's previously a Co editor of the.
+00:00:47.280 --> 00:00:51.000
+Welcome everyone it's great to be here thanks James for the invitation.
 
 6
-00:00:47.700 --> 00:01:03.300
-World shake for bibliography she's also co editor of early modern digital review and decks a database of dramatic extracts and today she's going to be talking to us about using digital resources in the Shakespeare class for crystal.
+00:00:54.990 --> 00:00:55.410
+yeah.
 
 7
-00:01:04.860 --> 00:01:14.790
-Thank you, Dr Cummings and thank you for that kind introduction and everyone for joining us today and what I know is a busy time of term and an odd time of our lives.
+00:00:56.580 --> 00:00:59.550
+competition or the Tuesday studies scores multilingual.
 
 8
-00:01:15.930 --> 00:01:26.790
-i'm currently speaking to you from mcgee mcgee, which is the ancestral and unseated territory of the mid market people in Nova Scotia Canada, but my story doesn't actually start in Nova Scotia.
+00:01:00.690 --> 00:01:05.610
+I will share my screen now hope everybody can see that.
 
 9
-00:01:27.930 --> 00:01:37.080
-My story starts when I was an undergraduate in Ontario I had a research assistantship for Professor Carol Davison who was working on a book on Gothic literature's.
+00:01:09.120 --> 00:01:14.790
+yeah challenges and lessons learned so first of all, before I even get going.
 
 10
-00:01:37.410 --> 00:01:47.940
-My job was to go to the basement of the lady library at the University of Windsor Canada and scroll through microfilm to take copies of reviews of Gothic novels.
+00:01:15.870 --> 00:01:16.710
+This is really.
 
 11
-00:01:48.780 --> 00:01:57.720
-Nowadays, however, that research assistantship would have been entirely different these reviews are available and tons of digital resources.
+00:01:18.240 --> 00:01:20.760
+This talk is about a collaborative project so.
 
 12
-00:01:57.960 --> 00:02:06.540
-For many humanists instead of learning to read microfilm and facsimiles using a microfilm machine or going into archives and work with archival materials.
+00:01:22.800 --> 00:01:33.180
+lots of people have been working on this on this project that i'm going to use as the main example of some of the challenges and lessons learned.
 
 13
-00:02:06.780 --> 00:02:14.490
-Our research practices have evolved and now what we do is we find digital facsimiles using online platforms.
+00:01:33.750 --> 00:01:41.790
+In multilingual competition or do studies and they they all contributed over the last three years to the cross section that was just mentioned.
 
 14
-00:02:15.390 --> 00:02:25.920
-i'm a literary scholar who turned to digital humanities, because I could see how it was changing the way we access and create knowledge about Shakespeare early modern drama and book history.
+00:01:42.420 --> 00:01:47.190
+Already distant reading for European literary history, so this is really a collaborative talk and.
 
 15
-00:02:26.460 --> 00:02:37.800
-My examples today are taken from English department classes, but some of the principles would hold true for other courses, even if the area of study isn't the same even if you're not teaching a Shakespeare class.
+00:01:47.820 --> 00:02:04.410
+Some of the things I talked about i've been involved very closely, others less closely because there's there's a lot of different things going on in this in this cross section, obviously, so why the focus on the Multi lingual aspect I think it's really.
 
 16
-00:02:38.280 --> 00:02:50.640
-Some of these principles will will hold true i'd like to thank my students for embarking on these explorations with me and I just wanted to let you know that any student that I name or quote, I have asked permission in advance.
+00:02:05.760 --> 00:02:12.030
+it's really a recent trend in the last couple of years that this issue has seen a lot more visibility.
 
 17
-00:02:51.090 --> 00:03:01.620
-My talk today is from a forthcoming chapter in an edited collection called digital pedagogy in early modern studies edited by Andy Silva and Scott show field.
+00:02:13.320 --> 00:02:21.450
+And just to pick just one example, one of my favorite examples is the data sitters club that Quinn dombroski and others animate.
 
 18
-00:03:02.760 --> 00:03:03.090
-Okay.
+00:02:22.230 --> 00:02:35.880
+That is really programmatically multilingual and many other examples, and so the l tech and construction example is really one one in a whole series of such projects.
 
 19
-00:03:06.090 --> 00:03:15.360
-There are a number of ways to incorporate the digital, which is an often a morpheus category admittedly into teaching Shakespeare at the undergraduate and graduate levels.
+00:02:37.230 --> 00:02:37.650
+Now.
 
 20
-00:03:15.600 --> 00:03:24.420
-Indeed, most Shakespeare classes already include digital components, even if it's research taken with undertaken with early English books online.
+00:02:39.030 --> 00:02:46.110
+What I want to talk about Basically, this is my business to have you have my talk i'll briefly introduce our tech.
 
 21
-00:03:24.990 --> 00:03:27.030
-EVO or the world Shakespeare bibliography.
+00:02:47.730 --> 00:02:56.220
+And then talk about some issues in a bit more detail the composition criteria of this corpus encoding principles publication strategy.
 
 22
-00:03:27.900 --> 00:03:41.070
-If an instructor plans, an entirely analog course the students will still turn to websites with varying degrees of credibility from add written spark notes, and this is the spark notes to stats on their usage with high school students.
+00:02:56.610 --> 00:03:06.720
+And usage scenarios and I will put a focus on the composition criteria and the use of scenarios and just touch quickly on encoding principles and publication strategy.
 
 23
-00:03:41.640 --> 00:03:50.160
-To the well respected Internet Shakespeare additions instructors wanting to bring digital elements into their classroom can collaborate on exciting assignments for existing projects.
+00:03:07.230 --> 00:03:17.310
+Before I conclude, very briefly, so what is what is our tech, first of all, so it means European literary texts collection and it is.
 
 24
-00:03:50.520 --> 00:04:00.960
-For instance, you could have students right Wikipedia entries professors can join the map of early modern London pedagogical partnership, they could transcribe EVO text learning using type rate.
+00:03:18.210 --> 00:03:25.410
+being produced in the context of the cross section distant reading for European history, which is a research network.
 
 25
-00:04:01.650 --> 00:04:07.080
-Large digital projects like global shakespeare's at MIT often include students as learning partners.
+00:03:25.890 --> 00:03:32.220
+That has been developed over the last has been developing over the last three three and a half years.
 
 26
-00:04:07.410 --> 00:04:16.620
-Students could be encouraged to blog in a Shakespeare class as Peter kerwin has written about or use social media creatively as kyle de Roberto has written about.
+00:03:33.180 --> 00:03:40.950
+By now, they are 31 countries involved, mostly Europe but also in the US, the US is involved and Australia, for example.
 
 27
-00:04:17.340 --> 00:04:33.300
-tech savvy instructors can even have students build an entire project or contribute to a project as a class today, however, rather than talking about building or contributing to a digital project i'm talking about equipping students to use digital projects.
+00:03:41.490 --> 00:03:58.500
+And they about 200 researchers who have in some shape or other been involved in the in the action the central ambition really is to foster digital cross lingual research into the history of the European novel and we could argue about the terms multilingual and cross lingual.
 
 28
-00:04:34.350 --> 00:04:38.670
-and facilitating their use and understanding of these resources.
+00:03:59.550 --> 00:04:00.270
+And really.
 
 29
-00:04:39.390 --> 00:04:52.410
-So often, when a digital humanities component is included in the course the question becomes what are you going to cut to fit in the digital, but the question I like to ask is, are we teaching current research practice if we exclude the digital.
+00:04:01.320 --> 00:04:20.760
+I think the term cross lingual actually is, the better match here because we're not just trying to do, multiple languages independently alongside each other in a way, but we really try to enable research that that works on multiple connections, at the same time.
 
 30
-00:04:54.240 --> 00:05:03.990
-Although sometimes heralded as a brave new world digital Shakespeare studies is not a new field as the stock image of Shakespeare confused by technology shows.
+00:04:21.840 --> 00:04:25.680
+We try to yeah and we'll see how that how that works.
 
 31
-00:05:05.010 --> 00:05:07.560
-he's been confused by computers for centuries now i'm just kidding.
+00:04:27.180 --> 00:04:36.360
+So the construction has a number of areas of areas of activity, obviously, so, first of all, we want to build that multilingual corpus of the European novel.
 
 32
-00:05:08.880 --> 00:05:14.880
-The landscape of digital Shakespeare studies is however ever is, however, always changing.
+00:04:37.860 --> 00:04:42.270
+Which is what i'm focusing on today, as well as on the second point, we want to develop.
 
 33
-00:05:15.240 --> 00:05:24.630
-new digital projects appear existing websites vanish and even those resources that have stood the test of time are updated with new materials and functionality.
+00:04:42.720 --> 00:04:50.730
+And also evaluate and use appropriate digital methods of analysis so appropriate for that multilingual material.
 
 34
-00:05:25.020 --> 00:05:34.380
-My talk today outlines a mid term assignment that can be used as part of a broader course, it can be the only digital component in humanities course with other focuses.
+00:04:51.180 --> 00:05:03.270
+We want to think about the theoretical theoretical consequences of having digital data using digital methods for core concepts in literary history and literary theory, such as.
 
 35
-00:05:35.370 --> 00:05:42.810
-If, in your course students are contributing to a larger digital project this smaller assignment can be helped prepare them to.
+00:05:04.110 --> 00:05:12.510
+authorship period ization canonization things like that we of course want to create a network of researchers across Europe that.
 
 36
-00:05:43.110 --> 00:05:51.810
-Consider how they're making a valuable contribution to the existing field if they're writing a final paper and i'll use some of my examples from final papers.
+00:05:13.110 --> 00:05:24.030
+That do this kind of research, and that has really been been happening and i'm very pleased about this, and this involves as well, capacity building, so we organize training, schools.
 
 37
-00:05:52.320 --> 00:06:00.990
-This assignment is offer scaffolding to help show them the range of approaches to the field of study and can prompt them to undertake original research.
+00:05:24.990 --> 00:05:41.190
+short term exchanges between researchers and we have been able to launch a couple of projects in different constellations of action participants that take what we started further or deeper in in various areas.
 
 38
-00:06:01.740 --> 00:06:09.390
-Even students who are not interested in pursuing Shakespeare studies which I can't imagine why that would be, but some of them don't want to.
+00:05:42.660 --> 00:05:51.630
+So i'll take the European literal texts collection what is that it's a corpus of the European novel for the time period 1842 1920.
 
 39
-00:06:10.710 --> 00:06:21.690
-they'll find these the study of digital resources valuable because evaluating and analyzing online tools and projects is an eminently transferable skill.
+00:05:53.040 --> 00:06:03.870
+And I think that question that we get most about lt is really why that period, why does it start in 1840, why does it end in 1920 and there are lots of reasons actually.
 
 40
-00:06:23.070 --> 00:06:24.330
-So here we go.
+00:06:04.410 --> 00:06:14.190
+Mainly, they are related to four points, the first is production, so if we think about German, English and French.
 
 41
-00:06:25.350 --> 00:06:29.580
-And although i'm going to be talking about Shakespeare, we can think about other examples here to.
+00:06:14.910 --> 00:06:24.480
+Then there's no need to start as late as that, because the novel was already very actively you produced, even in the 17th and 18th centuries.
 
 42
-00:06:32.100 --> 00:06:41.610
-The basics of the digital project analysis assignment are simple each student in the class researches an existing online site and shares their findings with the rest of the class.
+00:06:24.900 --> 00:06:39.840
+However, that's not the case in all of the European languages and European literary traditions that we look at so some of them started their own tradition of the novel only in the course of the 19th century, then there's the topic of availability.
 
 43
-00:06:42.390 --> 00:06:48.570
-And i'll go over some of the logistics of how we undertake it and i'll share some of my assignment prompts with you as well.
+00:06:42.120 --> 00:06:51.720
+The 19th century novel has been digitized a lot more than than the previous periods so it's a question of you know feasibility, can we pull this off.
 
 44
-00:06:49.230 --> 00:06:58.590
-Having students teach each other has multiple benefits they gain mastery over one digital project and they're exposed to a range of projects.
+00:06:52.560 --> 00:07:06.750
+there's a technical aspect related to ocr optical character recognition, it is it works, a lot better for 19th century materials, then for 18th century materials, for example, depending on the printing traditions in the different countries.
 
 45
-00:06:58.950 --> 00:07:14.340
-The benefits of learning by teaching sometimes called ldl learning do 11 for subject mastery and communication skills have been touted for centuries, and most recently lauded as a preparation for life in information and knowledge societies.
+00:07:07.860 --> 00:07:16.260
+And finally, copyright is really the main reason that we stopped in 1920 because, with the European standard regime of copyright ending.
 
 46
-00:07:14.880 --> 00:07:30.150
-In my experience, also students often work harder to impress their peers than to just impress me and rather than listen to me drone on about digital sites and how to use them, they hear firsthand from other students what the benefits are drawbacks might be.
+00:07:16.740 --> 00:07:27.810
+70 years after the death of the author of a given novel of a given texts that means that if we stop in 1920 most of the novice that we would like to include.
 
 47
-00:07:31.860 --> 00:07:38.130
-Now, the first step into Korean creating an assignment like this is, of course, to figure out which sites should we send our students to.
+00:07:29.280 --> 00:07:37.080
+are no longer under copyright are so so that we can publish them openly, which is of course what we wanted to be able to do.
 
 48
-00:07:38.910 --> 00:07:45.840
-Thankfully there are already tons of curated list on almost any research topic you're interested in.
+00:07:38.430 --> 00:07:48.150
+Second, key goal or characteristic of LTE is that we plan to provide at least 10 different European languages collections in 10 different languages.
 
 49
-00:07:46.530 --> 00:08:01.950
-Specifically, the study of Shakespeare has lots so one of these images the top one is from Clare burns of pill crows list, which is a very comprehensive list about digital resources sorted by category I also have.
+00:07:48.660 --> 00:07:59.790
+And at the moment we have eight of them complete so we're almost at that 10 and we have not just two more in progress, but 10 more in progress so there's a lot of interest in the.
 
 50
-00:08:03.180 --> 00:08:12.780
-A link or a screenshot here of Sarah warner's digitize first folio which is just a list of all the different ways, you can access different copies of the first folio.
+00:08:00.270 --> 00:08:06.990
+Among the actual participants to have their national traditional their language based tradition present as well.
 
 51
-00:08:13.110 --> 00:08:23.760
-there's also lists by Adam G hooks and cyrus already if you're not a Shakespearean in your field i'm sure you already know a number of resources that could be studied and there are tons of other lists to turn to.
+00:08:08.280 --> 00:08:14.880
+And then, these are not just any 100 novels language, but the idea is that the collections are roughly comparable.
 
 52
-00:08:25.080 --> 00:08:32.850
-If you do an advanced search of the world Shakespeare bibliography by and you limit your sources to digital projects as your document type.
+00:08:15.300 --> 00:08:20.850
+between each other and that's why the composition criteria will be so important that we'll talk about them in a minute.
 
 53
-00:08:33.570 --> 00:08:49.650
-i've sorted the results reverse chronologically here and we can see there's 220 digital projects solely devoted to the study of Shakespeare the world Shakespeare bibliography wouldn't, for instance, include lots of relevant digital resources like.
+00:08:21.630 --> 00:08:30.180
+So some more key characteristics each corpus is meant to represent the variety of production so it's not about.
 
 54
-00:08:51.390 --> 00:08:53.760
-It wouldn't include the.
+00:08:31.050 --> 00:08:41.550
+Producing a statistical sample that would be statistically representative of the of the population of the overall production but.
 
 55
-00:08:56.370 --> 00:09:04.200
-hens low Allen archive because it's not specifically focused on Shakespeare, but that might be one that would be interesting to approach in this class.
+00:08:42.450 --> 00:08:50.340
+We can't do that because we in almost all of the cases we don't know we don't have that population defined.
 
 56
-00:09:05.610 --> 00:09:15.780
-The digital projects that you talk about can be tailored to a particular theme like Shakespeare and performance Shakespeare instruction textual studies Shakespeare in book history or global Shakespeare.
+00:08:51.210 --> 00:09:01.590
+For the British novel that's the case, there is a bibliography for some other traditions it's, also the case, but generally we don't have that information, so we can't we can't do that.
 
 57
-00:09:16.230 --> 00:09:27.300
-Some existing sites and some even some printed resources offer curated list, with particular emphasis like Hugh mcrae richmond's chapter on teaching the history plays using digital resources.
+00:09:02.070 --> 00:09:11.070
+And also, even if we did that would be practical other practical limitations in terms of you know, having to digitize most of what we would like to include.
 
 58
-00:09:27.750 --> 00:09:34.890
-The Arden early modern drama guides critical reader series also offer targeted suggestions that include.
+00:09:12.540 --> 00:09:24.420
+The text are all encoded in xml ti and our will be linguistically annotated, especially for part of speech and named entities and, of course, everything is published under open licenses.
 
 59
-00:09:35.340 --> 00:09:46.830
-Digital content so Jillian woods and Laura seymour have a chapter on learning and teaching resources on Henry the fifth that would be applicable if you wanted to focus your attention on just one play.
+00:09:24.780 --> 00:09:36.540
+The texts themselves are in the public domain anyways and we don't we try not to place unnecessary restrictions on you know anything else metadata encoding etc.
 
 60
-00:09:47.850 --> 00:10:00.270
-The main difference when I assign this project for an undergrad class or a graduate class is the kinds of digital resources, I offer students to consider and the sophistication I expect in their analyses.
+00:09:37.530 --> 00:09:46.590
+You can find out more about Ltd under the link that is presented here, and the latest release is from April so pretty recent.
 
 61
-00:10:02.370 --> 00:10:14.070
-Here is a list that I took from other people's lists to think about what would be valuable for my students to talk about last term, it was an upper division undergrad course and, as you can see, this is not the whole list.
+00:09:47.250 --> 00:09:58.710
+With 14 different collections, not all of them complete but for total of 1200 novels So you see that the average is somewhere in the 1980s or 90s for for each collection.
 
 62
-00:10:14.820 --> 00:10:26.250
-shakespeare's Canada city has led to the development of many digital projects focused on Shakespeare, but there's a value in moving beyond Shakespeare, and looking at the resources to put his work in context.
+00:10:00.120 --> 00:10:10.800
+Now this is, this is the overview of the current state of the corpus and you see that there are 18 collections and 18 different languages.
 
 63
-00:10:26.760 --> 00:10:32.190
-Exploring digital projects beyond those focused on Shakespeare can help students see.
+00:10:11.250 --> 00:10:20.490
+And so on the left in the right frame you see the languages, on the one hand, and then the number of texts that are included.
 
 64
-00:10:32.700 --> 00:10:40.590
-shakespeare's work in relation to his contemporaries and can help them ask questions about Shakespeare central place in our classrooms and theaters.
+00:10:20.820 --> 00:10:33.900
+And you can see, this we are we have collections at all stages of the process, some of them are complete with 100 novels others are somewhere in the middle, with let's say 8458 and some are really starting out.
 
 65
-00:10:41.340 --> 00:10:53.670
-If you want, you can even use this assignment instead of saying we can say here's a Shakespeare class we're actually going to focus on all non Shakespeare related resources right.
+00:10:34.440 --> 00:10:40.680
+With just two or in the low 20s different collections and we have well.
 
 66
-00:10:55.200 --> 00:11:05.580
-Like the companion of Renaissance drama is a very web one point O resource, I have on this list the digital anthology of early modern English brahma from the folger, for instance.
+00:10:41.280 --> 00:10:53.040
+A few more months, maybe a bit more to go, and so we hope to complete, as many of these collections as possible, but for some languages, it will, it will be tough and we will not reach the 100 novels but even then.
 
 67
-00:11:06.420 --> 00:11:18.330
-Students can get very excited about, for instance, the last plays database which among its hundreds of descriptions of last plays includes nine entries on Shakespearean plays and apocrypha.
+00:10:53.640 --> 00:10:59.010
+You know, some some of the languages have really not seen such corporate online and at all.
 
 68
-00:11:18.630 --> 00:11:25.890
-because it shows just how much evidence we are missing and can help us better qualify the claims, we make about early modern drama.
+00:11:00.270 --> 00:11:15.570
+Now let's go into the first of the core issues, the composition criteria for Celtic so first of all, they are some eligibility criteria, so what kinds of texts can be included at all, no way, so they have to be novels.
 
 69
-00:11:26.730 --> 00:11:35.670
-She Alexander, who is a graduate student who her area of focus is book history and Victorian studies astutely observed in her presentation that.
+00:11:16.260 --> 00:11:23.190
+And we have a very minimal definition of what a novelist we just say its narrative fictional pros of a certain length.
 
 70
-00:11:36.120 --> 00:11:43.890
-The last place database effectively argues that scholars knowledge of early modern drama remains limited with much content yet to be discovered.
+00:11:23.910 --> 00:11:34.770
+And we don't formally define narrative and fictional and pros, but we do formula define the minimum length criterion, they have to be at least 10,000 words.
 
 71
-00:11:44.160 --> 00:11:58.170
-By extension, this website also argues that the early modern drama cannon needs to be expanded, and so it provides early modernists a well articulated computer supportive collaborative workspace in which to share and build upon that work.
+00:11:35.550 --> 00:11:45.390
+Which is debatable and arbitrary, obviously, but it sounded like a good idea to time but to be honest, the length criteria and we'll get to.
 
 72
-00:11:58.950 --> 00:12:11.880
-This assignment can lead students to question indeed why so many projects have a focus that starts and ends with Shakespeare and can be an effective way to introduce contextual materials into a single author course.
+00:11:45.810 --> 00:11:52.200
+It in a bit more detail in a minute is one of the most controversial criteria that we have surprisingly.
 
 73
-00:12:14.670 --> 00:12:22.590
-Both undergraduate and graduate students benefit from this when I teach this to undergrads I like to put on some resources focused on pedagogy.
+00:11:52.830 --> 00:12:00.810
+So all the novels have to be written originally in the language of the collection, so that no translations in there again pretty debatable, but that's what we set out to do.
 
 74
-00:12:22.860 --> 00:12:29.340
-For instance, if people are working to certify as teachers, the resources that will be interested interested them will be different.
+00:12:01.290 --> 00:12:12.690
+And we would like those novels to have been published, either at for immediately at first in the first publication, or at least as well in Europe so that they participate in the European tradition of the know.
 
 75
-00:12:30.000 --> 00:12:37.140
-If they're planning on teaching in high schools or primary schools this past semester my students looked at.
+00:12:14.580 --> 00:12:25.980
+Because, after all, it's a you funded project so that seemed seemed fair and we do we it's it's already a big the scope is already quite big so we needed to put a limit on it somewhere.
 
 76
-00:12:37.740 --> 00:12:51.870
-The rsc Shakespeare learning zone and also australia's Shakespeare reloaded and during the class discussion time they talked about how these sites were different and complimentary and why you might turn to one versus another.
+00:12:26.610 --> 00:12:34.650
+Now the composition criteria, a little bit more complex, they have, as the key objective to ensure this compatibility of the collections.
 
 77
-00:12:52.890 --> 00:13:07.050
-The content of these sites, I mean they're both aimed at a similar audience with different geographic locations, but how many if you were a teacher Where would you go to find your resources to teach Shakespeare.
+00:12:35.130 --> 00:12:44.610
+but also to make sure that we really do represent the diversity of the novel production and in doing so that we go beyond the canon and beyond.
 
 78
-00:13:09.030 --> 00:13:17.310
-At the graduate level, I often ask students to work with more advanced research, such as that facilitated by the database of early English playbooks.
+00:12:45.120 --> 00:12:55.890
+The novels that you usually find online anyways so, because otherwise there's no real added value to this particular collection of corpus.
 
 79
-00:13:17.610 --> 00:13:24.930
-And online sites by the records of early English drama, like the patrons and performances site or early modern London theaters and last.
+00:12:56.640 --> 00:13:08.940
+Now the criteria we do take into account, are the following so and sorry for there's a missing translation and because the slides are multilingual as well, they are available in three different languages.
 
 80
-00:13:25.740 --> 00:13:43.440
-One memorable semester read launched its new website, the week, one of my students was supposed to present on it, she handled the situation with aplomb and help lead the class in a discussion of what had been changed and how it had changed and also thinking starting to think about why.
+00:13:09.720 --> 00:13:29.700
+So, and here there's a missing translation, so that the period of publication that should be we have we just split the period into four periods and we try to have novels having a similar proportion of novels from each of these periods, so that we can we don't compare you know, the French.
 
 81
-00:13:44.490 --> 00:13:52.920
-I mean, there was a moment that she came to see me in my office hours with just panic and what actually came out of it was one of the best discussions we had all term.
+00:13:30.810 --> 00:13:42.360
+Early 19th century novels to the British late 19th century novels but that really every collection has a bit of everything similarly for the length of the.
 
 82
-00:13:55.320 --> 00:14:03.360
-The myth of the digital native a generation of learners who innately understands computers has been thoroughly debunked.
+00:13:43.110 --> 00:13:55.260
+Of the novels we simply distinguish between short, medium and long novels the short ones up to 50,000 words and the long ones are over 100,000 words.
 
 83
-00:14:03.780 --> 00:14:22.830
-Students need to learn how to use digital projects to make thoughtful arguments, this can include learning basic skills such as determining the scope of a project and how to search it why, for instance, is the launching of the Mary not included in deep it's a play from 1632.
+00:13:55.920 --> 00:14:06.000
+And I said this is controversial and it is indeed because we noticed and really that's a learning process we didn't really know in the beginning, when we set out.
 
 84
-00:14:24.480 --> 00:14:36.000
-So when we offer, so I like to offer some test cases to students and we do some of this in class I also offer students when they're working on their presentations I give them some suggestions on what to look for.
+00:14:07.980 --> 00:14:11.400
+In every language based literary tradition.
 
 85
-00:14:37.440 --> 00:14:53.850
-And what happens is students start to realize that a database of early English playbooks, which is a focus on print is not the same as a database of early English plays also something that they come to from the last place database, the launching of the Mary is a manuscript play.
+00:14:13.320 --> 00:14:16.620
+The distribution of novel length can be quite different.
 
 86
-00:14:55.170 --> 00:14:58.920
-manuscript play is naturally outside the scope of deep.
+00:14:18.300 --> 00:14:22.170
+So some traditions, for example, to Greek.
 
 87
-00:15:01.020 --> 00:15:10.680
-And here's another one why, when you search for Macbeth in early English books online, this is the you can see here the search terms as title Macbeth.
+00:14:23.520 --> 00:14:38.040
+novel tradition doesn't have a lot of long novels and for them actually these criteria are too strict and they will have a very hard time finding one third 130 around 30 long novels at all.
 
 88
-00:15:11.100 --> 00:15:19.290
-i've sorted this by the oldest first, and if you just looked at this at a glance you would be like okay great Macbeth was first published in 1673.
+00:14:38.580 --> 00:14:54.000
+And, in other cases it's more the case that, for certain time periods let's say the early 20th century with the modernist novel when others tend to be shorter in that period it's it might be difficult to find long novels.
 
 89
-00:15:20.700 --> 00:15:35.490
-What to a season Shakespearean, it is obvious that Macbeth was first published in the 1623 first folio but the title of the first folio is comedies histories and tragedies it emits the name of the Scottish play.
+00:14:55.080 --> 00:15:01.500
+In other cases it's it's particularly combinations with author gender that are rare and.
 
 90
-00:15:35.850 --> 00:15:45.510
-But for students, this is a learning experience they can learn about the folio they can learn about anthology ization they can even learn about William dominance restoration adaptations and so on.
+00:15:03.030 --> 00:15:10.560
+So we don't just look at each criteria on separately, but also in combination, so we try to have a certain proportion of.
 
 91
-00:15:46.020 --> 00:15:57.120
-Furthermore, grappling with unexpected search results help students discover best practices for searching digital sites and help them determine the scope and where let's say the.
+00:15:11.340 --> 00:15:25.500
+novels by male and female authors, overall, but also within each time period and that makes these criteria actually really challenging and we don't have perfect results obviously everywhere.
 
 92
-00:15:58.560 --> 00:16:11.370
-The fuzziness is to use a term that EVO itself uses as Ian gad has pointed out, searching EVO can seem like a search of all early modern literature, when this is patently not the case.
+00:15:27.510 --> 00:15:30.990
+yeah author gender is another controversial one, because again.
 
 93
-00:16:11.850 --> 00:16:19.890
-Each digital site is bound by its editorial decisions and practices, why are the English short title catalogs.
+00:15:32.100 --> 00:15:46.170
+A number of novels written by female authors is first of all, not clearly known in all traditions, it can also diverged considerably between different traditions.
 
 94
-00:16:20.340 --> 00:16:32.550
-Different results than EVO, why does it offer different results than deep, how do these projects diverge and overlap, if you want to undertake research in the early modern period, these are the kinds of questions you have to grapple with.
+00:15:46.710 --> 00:15:59.940
+So for the British Navi we found out because there's this very good bibliography that really there are about 50% of the novels written by female authors, which surprised me and I could hardly believe it.
 
 95
-00:16:34.560 --> 00:16:43.560
-What material, and this is an example, I also had from last semester what material is covered in the J store understanding series Shakespeare collection.
+00:16:01.290 --> 00:16:09.930
+But, but that seems to be the case, whereas in other traditions We only know of novels by female authors.
 
 96
-00:16:44.040 --> 00:16:51.540
-It was formerly called understanding Shakespeare, which seems a bit catch here and what is the most useful way to navigate its results.
+00:16:11.370 --> 00:16:21.420
+that make up maybe 10% of the production and so what is an appropriate proportion, should it be proportionate to what we know about the individual traditions.
 
 97
-00:16:52.290 --> 00:16:59.370
-I don't know if you've ever been to this website or not, but it offers the folger digital texts or which is now called the folger Shakespeare.
+00:16:22.350 --> 00:16:33.120
+Should it always be 5050 then it's impossible for some of the collections, but what about compatibility, then so we ended up saying you have to have at least 10% of the novels written by a.
 
 98
-00:17:00.000 --> 00:17:04.980
-It offers the folger Shakespeare text to the place and then it shows you how many.
+00:16:33.750 --> 00:16:44.520
+Female authors and it can be up to 50% and, ideally, it would be somewhere in between, which is really a pretty complex way of defining.
 
 99
-00:17:05.490 --> 00:17:15.360
-articles in J store quote that line so here, you can see, to be or not to be as quoted in 500 and to Jay store articles, but as my student pointed out last term.
+00:16:45.150 --> 00:17:02.520
+Seemingly seemingly simple formal criterion, and not even speaking about the diverse and mixed category and the category of authors, who used a different gender pen name to their let's say biological.
 
 100
-00:17:15.900 --> 00:17:26.340
-That is a little bit misleading because it's not 502 articles about Hamlet and Jay store it's 502 articles, who, at some point throughout it to be or not to be without.
+00:17:04.020 --> 00:17:04.770
+Sex now.
 
 101
-00:17:27.930 --> 00:17:32.820
-Without actually sometimes even going was not even sometimes being about Shakespeare.
+00:17:05.910 --> 00:17:12.660
+And then there's the criterion of the reprint count, which is really a way of measuring or operationalize.
 
 102
-00:17:34.230 --> 00:17:41.340
-I find this so this tells us about you mean you could point to this and make a claim about the popularity of given lines and Shakespeare.
+00:17:13.830 --> 00:17:16.320
+The level of anonymity of a novel.
 
 103
-00:17:42.870 --> 00:17:52.290
-But you have to think about this is limited and Jay store so it's not a record of all scholarship you have to think about how lots of people quote Shakespeare when they're not actually talking about Shakespeare.
+00:17:17.460 --> 00:17:23.490
+And we made a point of looking at that, in this time period 1972 2010.
 
 104
-00:17:52.590 --> 00:18:04.560
-You have to know how to make a claim that makes sense I love this image and I love this example of to be or not to be being a super popular line but it's not about to be or not to be being.
+00:17:24.510 --> 00:17:28.050
+around you know 1989 basically.
 
 105
-00:18:06.720 --> 00:18:12.480
-The most critically analyzed line in a store right that there's a difference there and the claims, we can make.
+00:17:29.280 --> 00:17:47.130
+So we wanted to make sure that we would include similar proportions of novels that are still being read regularly today or in the recent past let's say and others that were more or less forgotten in more recent times.
 
 106
-00:18:13.830 --> 00:18:30.240
-I find this assignment having students go research or digital project come back and teach the class about it helps me because it teaches me about the assumptions I make interfaces that i'm used to are called database or called dated by students.
+00:17:48.330 --> 00:17:59.190
+Last criterion, the number of novels for author nine to 11 authors can be represented, with three novels and everything else should be one novel by one author.
 
 107
-00:18:31.440 --> 00:18:38.460
-It also helps me learn about how they approach things because we're not going to have the same assumptions when we approach a project.
+00:17:59.790 --> 00:18:12.960
+This really has the purpose of making sure that on the one hand we can do some authorship attribution experiments and for those you need office represented, with more than one novel.
 
 108
-00:18:39.900 --> 00:18:57.030
-By learning how to use digital sites, they can also create original and impressive research, one of my undergraduate students Madeline lowery was fascinated by the images of Victorian and Edwardian Shakespeare actors, presented by Shakespeare, and the players, this is a website from emory.
+00:18:14.010 --> 00:18:22.170
+But on the other hand, we want to you know we have this goal of representing the diversity of the novel production, and for that it's simply necessary to make sure that.
 
 109
-00:18:58.980 --> 00:19:09.450
-This resource is an digital archive of images of postcards of actors who performed Shakespeare at the turn of the century from 1880 to 1914.
+00:18:22.680 --> 00:18:43.500
+Many different authors are represented at not so that no collection is dominated you know by a few famous very productive usually male authors like you know PASOK Zola and they haven't in the French collection, for example, or Dickens let's say in the for the British collection.
 
 110
-00:19:10.140 --> 00:19:21.750
-In her final paper lowery wrote about how desdemona was portrayed in these early performances captured on postcards and argued that in some productions desdemona was presented as a new woman.
+00:18:45.870 --> 00:18:46.890
+yeah the result.
 
 111
-00:19:22.050 --> 00:19:32.730
-That turn of the century feminist aesthetic reflected a whole new way of thinking about women's role in society and what women could and should do, for instance, like writing.
+00:18:48.120 --> 00:18:56.640
+does look quite varied depending on the collection, that you look at on the left, we have the British novel a collection.
 
 112
-00:19:34.470 --> 00:19:46.800
-lowery focused on a 1907 production stage in Manchester featuring Margaret helston as desdemona and Matheson Lang as a fellow she brought in this iconic image of the gibson girl as the aesthetic for comparison.
+00:18:58.290 --> 00:19:12.060
+That has 100 novels and it has what we call it easy five actually if i've see it's the l tech corpus composition criteria compliance score something like that.
 
 113
-00:19:49.020 --> 00:19:58.770
-I was so impressed to hear to read her paper, where she had gone found this research from these resources by herself and come up with a wholly original thesis.
+00:19:13.620 --> 00:19:28.080
+And it has a perfect score, and you can see that the well chosen colors pink and blue here for the agenda for each sub period and each length category give a pretty balanced.
 
 114
-00:19:59.220 --> 00:20:07.260
-This website allowed an undergraduate student to undertake original research that would not have been popular would not have been possible.
+00:19:29.370 --> 00:19:40.470
+picture, for example here on the top right, you would have short novels of the first time period, and they are two novels by a female Office and to buy male authors, this is what this.
 
 115
-00:20:07.710 --> 00:20:16.200
-Without costly travel access to archives depending on where you are, you might be fortunate to be able to access all sorts of archives, but.
+00:19:40.890 --> 00:19:50.310
+mosaic plot basically shows, and you see that it's very equally distributed among the different categories, whereas for the Romanian collection on the right.
 
 116
-00:20:16.890 --> 00:20:28.410
-Your research questions and your areas of interest might might or might not also be possible, there might hypothetically also be a global pandemic gone or something like that that prohibits you from traveling and things like that.
+00:19:51.420 --> 00:20:02.790
+it's the pictures a little bit different actually it's, this is not the right, this is, this is not the right image, let me just improve on this.
 
 117
-00:20:29.580 --> 00:20:42.000
-So this research that would have been too costly and time consuming for an undergraduate to undertake in person, by going to visit postcards and thinking about that was made much simpler, with a digital archive.
+00:20:04.140 --> 00:20:08.790
+This is the English one again so let's let's look at the Romanian one.
 
 118
-00:20:43.500 --> 00:20:53.220
-And I will also say that we have to think about our expectations in in Canada most undergraduate students are taking five classes, at a time for a full course load.
+00:20:10.080 --> 00:20:16.350
+Yes, this is the Romanian one, so this is what we should be looking at i'm sorry for that little mix up.
 
 119
-00:20:53.880 --> 00:21:02.520
-We couldn't reasonably expect someone to go to an archive and spend their time there for a final paper for one 200 level undergrad class.
+00:20:17.490 --> 00:20:31.170
+And you see first of all, the distribution in the time period is very different and very unbalanced in a way, much more challenging situation and the gender distribution is.
 
 120
-00:21:03.390 --> 00:21:11.970
-The other thing I will add is that this kind of assignment or offering students these tools makes it harder to plagiarize if they are there's a ton of.
+00:20:32.340 --> 00:20:35.100
+Not as equally distributed.
 
 121
-00:21:12.570 --> 00:21:24.180
-Shakespeare essays of varying quality, as you know, on the Internet, but there's not a lot of essays that go to a digital resource find something interesting in there and write about it and make it an argument based on that.
+00:20:36.360 --> 00:20:56.070
+It does fulfill the criteria of at least 10% novels by female authors, but it cannot achieve that kind of balance that we saw in the English collection, simply because of the the production, but also the state of the digitization and so let's go let's try and go back.
 
 122
-00:21:27.960 --> 00:21:35.100
-Even when students who undertake this digital project analysis choose not to use the digital project in their final paper.
+00:20:57.270 --> 00:20:57.540
+here.
 
 123
-00:21:35.850 --> 00:21:44.910
-The skills gained in this assignment offer them a better way of understanding shakespeare's play shakespeare's plays or poems, although I don't usually focus on the poems.
+00:20:59.250 --> 00:21:08.970
+So it's much more difficult to obtain the balance here, and this leads to Basically, this is just one example, and every collection has its own you know challenges.
 
 124
-00:21:45.570 --> 00:21:57.180
-Creating thoughtful evaluations is a vital skill in the humanities learning to assess a digital projects audience credibility usability and scope is an important part of critical thinking.
+00:21:10.110 --> 00:21:21.720
+But what it leads to basically is the is what I call the diversity paradox, so we have three competing objectives here one is compatibility of the collections and that.
 
 125
-00:21:57.570 --> 00:22:11.130
-Every digital project is itself an argument and we have to figure out what arguments those projects make they make arguments by having certain things included other things excluded certain things centralized others.
+00:21:22.290 --> 00:21:42.360
+is basically enabled by strict criteria, because you have to have some you know non canonized authors some novels by female authors some you know from each of the time periods, and if you if you're very strict with this you basically automatically are forced to to have similar collections.
 
 126
-00:22:11.730 --> 00:22:20.220
-marginalized this assignment also show students, how we make arguments as Shakespearean we look at.
+00:21:43.710 --> 00:21:44.220
+Second.
 
 127
-00:22:20.940 --> 00:22:25.590
-primary sources, like those featured on Shakespeare documented by the folger Shakespeare library.
+00:21:45.240 --> 00:21:53.310
+objective is this broad diversity of texts and again strict criteria basically automatically lead to that if you respect them.
 
 128
-00:22:25.980 --> 00:22:36.240
-We look at performance translation and reception history, often in national contexts, like the Taiwan Shakespeare database and Shakespeare and espana tell us.
+00:21:53.790 --> 00:22:00.780
+However, we also aim at the diversity of the literary traditions represented in our tech, so we do we don't.
 
 129
-00:22:36.720 --> 00:22:47.850
-We think we count things and we quantify using, for instance, the concordance is of shakespeare's Open Source Shakespeare or going to sites like shakespeare's words.
+00:22:01.260 --> 00:22:13.260
+We do want to have you know, the Hungarian and Romanian Serbian and the Ukrainian collection in there, and for them if the criteria are too strict.
 
 130
-00:22:48.600 --> 00:23:05.490
-And that's just to name a few approaches these sites exist because scholars wanted to promote a particular way of thinking about Shakespeare and what's useful is to help students step back a second and say what is the underlying argument of these sites.
+00:22:14.070 --> 00:22:37.770
+They simply can't put together a collection, so we need to balance these two competing needs and key strategy to respond to this challenge has been to have these flexible targets in a way, so to say, at least 10% novels by female authors ideally around 30 and you can have up to 50.
 
 131
-00:23:08.430 --> 00:23:26.160
-In preparing these presentations they gain a depth of understanding about a given area of Shakespeare studies, but they also are exposed to a breadth of knowledge, because they hear all of the other students talk and and we actually as you'll see create some shared resources to.
+00:22:39.030 --> 00:22:49.200
+That means that compatibility is some what ensured a certain minimum of diversity is also insured, but the bar is not too high for those languages.
 
 132
-00:23:27.240 --> 00:23:28.590
-build on our final papers for.
+00:22:49.590 --> 00:23:01.170
+For those literary traditions, where there hasn't been a lot of production by female authors or we don't know about it, or it hasn't been digitized or we cannot digitize enough of it in a way to include it.
 
 133
-00:23:31.200 --> 00:23:47.640
-there's no single approach to Shakespeare studies on the web, just as not digitally even a full semester course on just Shakespeare in the digital would not be able to cover all of the scholarly and valuable digital resources on Shakespeare.
+00:23:02.700 --> 00:23:10.800
+So that's that's basically our attempt to sneak out of this conundrum or this diversity paradox.
 
 134
-00:23:49.890 --> 00:23:57.720
-This assignment builds on students contagious enthusiasm and helps them and, like I said they would get bored if they just listened to me and.
+00:23:12.360 --> 00:23:23.400
+So I know this has been a pretty technical part with these criteria, but we do get a lot of questions about this, so I thought it's worth spending a bit of time on it now let's move on to some of the.
 
 135
-00:23:58.230 --> 00:24:10.500
-They hear each other and my favorite is when they take an assignment, or they take a project that someone else wrote about for their and talked about in their presentation and they use that one for their final paper.
+00:23:24.840 --> 00:23:25.710
+Easier parts.
 
 136
-00:24:10.830 --> 00:24:16.860
-it's not that they said Oh, I wrote about Shakespeare documented and so i'm going to do my final paper using Shakespeare documented.
+00:23:27.240 --> 00:23:45.180
+encoding principles there's nothing really magical happening there, especially if you are in an xml ti person or someone fluent in digital editing, it is very simple xml ti, but we do have three levels of encoding.
 
 137
-00:24:17.370 --> 00:24:29.460
-They say Oh, I heard someone else give a presentation about the Taiwan Shakespeare database and i'm going to incorporate that into my final paper into my argument about and this happened last term King Lear.
+00:23:47.100 --> 00:24:00.600
+A level zero with really minimal ti encoding whether you have some metadata and a header that is pretty standard across all levels and then simply a little bit of structure the chapters and the paragraphs and maybe some some.
 
 138
-00:24:31.380 --> 00:24:47.430
-Now, how do you actually go about making this assignment work there's a couple of different ways to do this and i've done this in and I mentioned undergrad and Grad classes, which I believe you would call postgraduate classes, I have also done this.
+00:24:01.650 --> 00:24:12.990
+Some highlights like it's Alex but really not a lot more than we have a level one encoding that is a bit more semantic in a way, so we try to convert those those high.
 
 139
-00:24:48.870 --> 00:24:56.790
-In different class sizes so and this year for the first time I did it teaching online and not teaching in person.
+00:24:14.100 --> 00:24:24.300
+Those high markup into things like foreign for foreign phrases or words and m for emphasis etc or titles.
 
 140
-00:24:57.540 --> 00:25:07.110
-For a small class I like to have students each prepare a presentation, where they walk us through the site and show the kind of research that site can facilitate identifying the sites argument.
+00:24:25.620 --> 00:24:27.630
+And then we have a level two, which is.
 
 141
-00:25:07.560 --> 00:25:15.030
-i've had success with either devoting to class periods to these discussions so like a full week about in the middle of term.
+00:24:28.710 --> 00:24:36.060
+ti with token level linguistic annotation especially part of speech, but also named entities and but Level two is really still.
 
 142
-00:25:15.840 --> 00:25:28.470
-or sometimes having students present one at the beginning of each class the nice thing about having them present in a whole chunk is that I always a lot a ton of time for discussion, because that is one of the most valuable.
+00:24:36.570 --> 00:24:55.470
+In development now for the slightly technically inclined, this is, of course, controlled by a set of schemas the schemas are connected with each other, via this process of changing that James might may be able to explain better than I, I can.
 
 143
-00:25:29.130 --> 00:25:36.270
-Times where my students are asking each other questions and I give them grades for asking each other questions.
+00:24:57.450 --> 00:25:01.230
+that's something that Luke put in place Lupo not who is working with us.
 
 144
-00:25:37.710 --> 00:25:46.530
-If i'm teaching a large class, and by that I mean like 60 or more people the way I do it is instead of offering everyone to choose their own presentation.
+00:25:02.640 --> 00:25:10.080
+So we have validation with real accidentally schemas and schema tron to be able to also check, you know certain structural constraints.
 
 145
-00:25:46.920 --> 00:26:00.780
-I assign them each a project, and I would have let's say six projects so everyone in group one talks about the Shakespeare in the players, everyone in group to talks about the Taiwan Shakespeare database, for instance.
+00:25:10.620 --> 00:25:26.370
+And the validation is social enforced, as I like to say bye Lupo not who really make sure that we don't publish anything that hasn't been validated we do try to avoid his scrutiny, but he usually catches us at some point.
 
 146
-00:26:01.740 --> 00:26:12.450
-And they all learn about that, and then they come into class and they present in small groups, I have not yet done that one in an online course, but you could do it using breakout rooms.
+00:25:28.080 --> 00:25:30.510
+yeah then of course we acquired some metadata.
 
 147
-00:26:13.500 --> 00:26:16.200
-In, whatever your digital platform is for teaching.
+00:25:31.530 --> 00:25:37.440
+The competition, I mean the data that we need in order to check the composition criteria, of course, is coated there.
 
 148
-00:26:17.610 --> 00:26:22.650
-And I would like to thank Madame de puter my high school geography teacher for teaching me that technique.
+00:25:37.710 --> 00:25:47.010
+there's some provenance information, the digital source that we use the print source that it relies on or that it comes from, if we know it, and the first edition of the novel.
 
 149
-00:26:25.230 --> 00:26:26.310
-When we.
+00:25:48.180 --> 00:26:00.150
+Whenever we we know it, which we usually do then optionally the type of the novel, for example, to sub genre of the novel or the narrative perspective is it a memoir novel or is it a third person novel things like that.
 
 150
-00:26:27.330 --> 00:26:45.690
-When we this is this is part of the assignment prompt as well, so when I asked the students to think about the sites, I asked him to think about who writes and creates it is it still updated, what is it point is it scholarly, why is it useful, and I asked them to give examples.
+00:26:01.260 --> 00:26:04.050
+But these are optional, because they are really tricky to.
 
 151
-00:26:49.590 --> 00:27:00.450
-And I also offer some possible possibly relevant points for them to consider are there other sites that might compete with this site, this is the thing asking students to.
+00:26:04.890 --> 00:26:13.200
+To a certain in many cases, especially the sexual information and, if you want to model this correctly, you need to do more than just put some keywords.
 
 152
-00:27:00.870 --> 00:27:11.460
-explore a digital project means that you have we as seasoned scholars can see a much larger piece of the field, this is trying to get them from.
+00:26:13.560 --> 00:26:22.410
+There, and finally, some texture characteristics, especially whether we modernize the text or not, or whether we use a modernized text or an original one.
 
 153
-00:27:12.270 --> 00:27:27.990
-newbie not to seeing the entire field, but just toward seeing more of the field and so when we have our discussions and they say things like oh i'm talking about mit's global Shakespeare How does that relate to the Taiwan Shakespeare database.
+00:26:23.370 --> 00:26:41.190
+The alphabet whether it's a Latin or Cyrillic alphabet or some transition alphabet, for example in Romanian we have some a phase where some transition alphabet is used, honestly, I can tell you much more about that, and of course the encoding level that is that that that the version has.
 
 154
-00:27:29.190 --> 00:27:33.240
-Or, as I mentioned, last time talking about the Shakespeare learning zone and Shakespeare reloaded.
+00:26:42.960 --> 00:26:47.190
+The alphabet issue is, by the way, something that I completely underestimated.
 
 155
-00:27:34.380 --> 00:27:41.520
-I also talked about right, we also have them talk about things like interface, and if the site makes sense to them because.
+00:26:47.940 --> 00:27:01.440
+and several of our language traditions change alphabets in the course of that period 1842 1920, for example, Serbian and Romanian with this transition alphabet and others had.
 
 156
-00:27:42.330 --> 00:28:00.480
-Some things that we think will make sense to a student right away just don't students who are came up with the blank Google search bar for instance don't understand boolean operators so always have a library and come to your class to help with research, how to research days as well.
+00:27:02.400 --> 00:27:10.950
+Language normalization pushes that that I didn't expect to happen late in the 19th century, but they do and it's really.
 
 157
-00:28:07.350 --> 00:28:15.510
-And I give them a sample thesis and you can see here, this is the discussion, I asked them, I give them grades for asking other people questions.
+00:27:11.850 --> 00:27:25.560
+it's really simply ignorance on my part on our part, when we designed the project and we learned a lot about the incredible diversity of the histories of the novels in different countries already just by trying to do this.
 
 158
-00:28:16.050 --> 00:28:27.780
-So here's my sample thesis that I gave them the Internet Shakespeare additions argues that scholars want to be able to compare early printings of shakespeare's works consult facsimiles and use both edited and annotated modern additions.
+00:27:26.700 --> 00:27:37.590
+Now the publication strategy is also very simple, on the one hand, it is oriented towards the needs of the project, so we use github as the space where we collaborate, where we curate those connections.
 
 159
-00:28:28.110 --> 00:28:37.200
-The IOC is functionality offers exciting possibilities for researchers working on Shakespeare its scope, reinforces Shakespeare central place in the English literary canon.
+00:27:38.430 --> 00:27:52.560
+We publish releases regularly with a dui through the nodal and that's where you can also download them as a zip package and where you can graph well where were the references to do I references will lead you.
 
 160
-00:28:38.460 --> 00:28:43.800
-And when the students go through sort of thinking about here's the things I like about a site here's the things I don't like about a site.
+00:27:53.940 --> 00:28:03.120
+We have this overview that I already showed on on github as well, and then for the needs of distribution in a way beyond the normal.
 
 161
-00:28:44.130 --> 00:28:57.240
-They have to think about what the criteria they set up for success are as well it's a simple rhetorical evaluation assignment that lots of people do in their English classes and have done forever we're just applying those ideas to digital.
+00:28:03.450 --> 00:28:14.820
+We are currently experimenting with different platforms, one of them is ti publisher another is the gums platform from god's university or the text with repository.
 
 162
-00:28:58.470 --> 00:29:09.870
-For undergrads I also like to link this to the craft test not sure you've ever heard of that one currency relevance authority cr a P, and so you say.
+00:28:15.690 --> 00:28:24.180
+From gutting and state and university library and, hopefully, we have a new project a follow up project called CLS in for.
 
 163
-00:29:11.010 --> 00:29:15.270
-let's find out what this site is about I usually give students.
+00:28:24.750 --> 00:28:38.790
+That is that we have just that we're just launching and hopefully we will be able to publish ltv through that platform as well just to give you an idea how this looks like this is the starting page of the github.
 
 164
-00:29:16.830 --> 00:29:31.230
-Sorry we'll talk with the handout i'll come back to the setup again so when I have students present they have to give us a handout sometimes last time I had them do PowerPoint slides because we were teaching, we were at a distance.
+00:28:39.930 --> 00:28:47.340
+organization for our tech where you see some of the people, contributing here on the right to the various Cobra.
 
 165
-00:29:31.770 --> 00:29:47.790
-But often I just have them add a page to the course website and then they walk up to the class and they share their page on the course website and walk us through the key things, including a link to the site and screenshots and from that handout I take their annotation which is.
+00:28:47.910 --> 00:28:54.780
+This is there's another Community where all these different corporate end up, and this is an example, one example of the.
 
 166
-00:29:49.080 --> 00:29:58.710
-A bibliographic citation and, like the key points and I make an annotated bibliography and I hand it back to all the students and then the students can say.
+00:28:55.650 --> 00:29:00.960
+Of the distribution platforms that we experiment with here to to a publisher and you see on the left.
 
 167
-00:29:59.040 --> 00:30:09.420
-Oh so and so was talking about this site that was really cool but I forgotten what it is, where should I go thinking thinking about that for my final paper and they've got a reference that we've created together.
+00:29:01.680 --> 00:29:10.980
+The facets language period author gender size and reprint count that allow you to put together, you know your own custom designed.
 
 168
-00:30:10.560 --> 00:30:14.610
-And I also like them to have at least some images on their online handouts.
+00:29:11.580 --> 00:29:23.190
+Sub collection across languages are focused on by gender or time period or size of the numbers, etc, and then you know download them as a package for analysis, for example.
 
 169
-00:30:15.930 --> 00:30:32.550
-What I find challenging about this assignment, is that the students actually really want to talk for a long time about their projects, as with any presentations here at the challenge has not been to get them to talk long enough, the challenge has been to rein them in, so I do the.
+00:29:24.900 --> 00:29:38.490
+So last point, and this, I will develop a little bit more, but actually it's just some examples as well, so usage scenarios for analytics or multilingual analysis scenarios, there are a couple of them.
 
 170
-00:30:33.900 --> 00:30:46.770
-Say okay your handout if it's when it was printed I said one page when we were doing slides I said no more than four slides I just try to keep them on top on topic.
+00:29:39.060 --> 00:29:51.270
+They all share some objectives we are trying to adapt existing statistical methods to these multiple European languages and we try to evaluate these methods in a multilingual across lingual context.
 
 171
-00:30:48.030 --> 00:30:54.510
-And we also at the end of my annotated bibliography I always include a glossary where students have explained things like.
+00:29:51.900 --> 00:30:00.360
+And, in particular, I think something that that is becomes possible now with our tech is to go beyond you know the usual suspects.
 
 172
-00:30:55.740 --> 00:31:08.010
-textual studies that's a word we throw around all the time, your undergrads have never heard of it, or maybe not until they came to your class and I always find it fascinating the words that students pick and they say oh.
+00:30:01.380 --> 00:30:13.110
+English, German and French and really look into more languages that have received a lot less attention when these kinds of methods are being developed so the examples I will mention on.
 
 173
-00:31:08.910 --> 00:31:15.720
-i've learned what a concordance was going to this website and then the rest of the class will benefit from that as well.
+00:30:14.610 --> 00:30:16.890
+Our include include the following.
 
 174
-00:31:19.080 --> 00:31:32.880
-This year, for the first time I also pointed students to early modern digital review, which is an existing reviews journal as James mentioned i'm one of the co editors, and this is published with Renaissance and Reformation on a soundstage a phone.
+00:30:18.300 --> 00:30:30.450
+So there's work on linguistic annotation, how can we annotate all these multiple languages in a way that will allow comparative analysis, so we we.
 
 175
-00:31:34.080 --> 00:31:43.710
-Established Journal and we publish reviews of digital projects, so this year I could say to students, here are some established reviews by scholars.
+00:30:30.960 --> 00:30:42.600
+The challenge really is that each language will use a different tagore or tagging model, and so a different tax ID as well, and we need to match.
 
 176
-00:31:44.130 --> 00:31:56.850
-Thinking about how projects make meaning how they work, what works well with them is something that we have to continue doing, not just because projects change, but because our research questions change to.
+00:30:43.260 --> 00:30:53.700
+To map those taxes on to share tax ID so that we can make meaningful comparisons between the languages in terms of you know distributions and frequencies of part of speech.
 
 177
-00:31:59.070 --> 00:32:08.070
-When I teach this class I usually spend one session in advance going over an example project that is not a project that anyone will be.
+00:30:55.140 --> 00:31:03.420
+This is a bit less of a problem for the named entities, because the inventory of of texts, of course, much smaller, but here the main challenge is really that.
 
 178
-00:32:08.550 --> 00:32:20.970
-writing about and talking about and we look at how we review different things if, by the way, you are interested in pitching a review or a digital project to be reviewed by em Dr let me know.
+00:31:03.780 --> 00:31:13.140
+literary texts are quite challenging in terms of named entity recognition anyways and then to do this in multiple languages, at the same time is is a challenge.
 
 179
-00:32:23.310 --> 00:32:23.730
-Okay.
+00:31:13.590 --> 00:31:20.040
+identification of direct speech is an interesting one that I will talk about a little bit more, we have an analysis of the titles.
 
 180
-00:32:25.050 --> 00:32:31.710
-As this talk has outlined, there are a number of important websites, to be used in the teaching and research of Shakespeare.
+00:31:20.820 --> 00:31:30.540
+Of the novels that also has a specific strategy of of how to do this across languages, and then we have a study in progress on standard metric authorship retribution.
 
 181
-00:32:32.010 --> 00:32:44.130
-it's equally important that educators and students are equipped to use these sites thinking critically about search results scholarly databases and digital projects might sound like a simple proposition.
+00:31:31.560 --> 00:31:34.650
+So just a few more words about identification of direct speech.
 
 182
-00:32:44.520 --> 00:32:48.450
-But actually grappling with these ideas is in no way easy.
+00:31:35.940 --> 00:31:48.540
+That sounds like a trivial trivial task, but it really isn't because the type of graphical conventions are very variable between the different languages.
 
 183
-00:32:48.960 --> 00:32:56.820
-It often means that I have to show students students will ask me questions, why does this not work on a website how Why is why is the search result coming up.
+00:31:49.110 --> 00:32:00.570
+And also depend a lot on the time period on the printer so it's really not that easy to identify the direct speech parts of a novel.
 
 184
-00:32:57.180 --> 00:33:06.690
-And it will not be easily apparent to me, sometimes right, and so I have to say, well let's go look at the about page let's go figure this out together and we have, I have to model to them.
+00:32:01.020 --> 00:32:15.360
+reliably across but even within one language, but especially across languages, and so, in order to to make some progress with this challenge one a group from from among the action.
 
 185
-00:33:07.410 --> 00:33:16.650
-That learning how to learn is about not knowing things and more knowing where to find information, sometimes right it's about.
+00:32:17.010 --> 00:32:29.310
+Used multilingual sentence embedding to do this so it's a instead of using now almost traditional word embedding they used sentence and weddings and.
 
 186
-00:33:17.340 --> 00:33:29.760
-You don't have to have all the knowledge you just have to start knowing where to get the knowledge and although the majority of our students will not continue with careers as Shakespearean or humanities researchers, the kinds of.
+00:32:30.570 --> 00:32:41.640
+multilingual version of those and managed to surpass the baseline performance, quite clearly, and so the the performance, the F1 score.
 
 187
-00:33:30.780 --> 00:33:42.150
-Preparation that ask them to become better critical thinkers and encouraging them to ask well framed questions of digital resources is actually going to help them well beyond their classroom.
+00:32:42.150 --> 00:32:51.630
+For correctly recognizing direct speech was around 0.89 for all the different nine languages that were studied here.
 
 188
-00:33:43.320 --> 00:33:43.800
-Thank you.
+00:32:52.170 --> 00:33:04.410
+with very little variation I was actually surprised by that, so this is a pretty solid performance that we do hope to improve and we do hope to cover more languages, but this is very, very promising, in fact.
 
 189
-00:33:48.480 --> 00:33:51.870
-Thanks Laura um since everyone's muted Oh, give me some Applause
+00:33:07.590 --> 00:33:13.200
+Second example is the title analysis, this is a forthcoming paper by another group of.
 
 190
-00:33:54.120 --> 00:33:57.150
-And also that reminds me I should stop the recording.
+00:33:14.370 --> 00:33:28.290
+Authors from from among the cost action and what they did here is basically they took all the titles of all the novels in in attic and collaboratively so with people who.
+
+191
+00:33:30.120 --> 00:33:42.750
+Have a command of all the different languages and they annotated them with a schema annotation schema basically creates comparable language independent data so, for example, as we see in this example.
+
+192
+00:33:43.140 --> 00:33:54.420
+Is there a place that is mentioned in a title and if, yes, which one is there person that has mentioned If yes, what is the name, what is the status, what is the sex.
+
+193
+00:33:56.820 --> 00:34:12.600
+Some formal characteristics, is it a two part title, what kind of separation character, do we find is there a genre indicator and which one etc, and you know some more some more information about the titles, so that they become.
+
+194
+00:34:13.770 --> 00:34:19.230
+That they take this becomes available for analysis across all the languages.
+
+195
+00:34:19.560 --> 00:34:35.250
+And, of course, this is combined with the metadata that we have from the from the corporate on each novel and just as one example of what what you can do with this is, for example, simply look at the number of words in each title in different time periods and.
+
+196
+00:34:36.960 --> 00:34:46.110
+yeah it was interesting for me to see that actually a lot of the titles are quite short so 234 words is the dominant title length.
+
+197
+00:34:47.970 --> 00:34:48.990
+And this is true.
+
+198
+00:34:50.280 --> 00:34:58.080
+for all time periods, but there's also a considerable number of pretty long titles so 10 to 22 words.
+
+199
+00:34:59.160 --> 00:35:18.900
+So they are yeah 40 titles that we found that are really quite long and there are lots you know many other results that that this type of study comprises, but this is just an example of how you go beyond the individual languages basically by by.
+
+200
+00:35:20.340 --> 00:35:25.110
+Moving on to a level that is language, independent and joining your data on that on that level.
+
+201
+00:35:26.190 --> 00:35:36.240
+Now the final example of usage scenarios cemeteries are standard metric authorship attribution here, we have just two examples to dental grams that show.
+
+202
+00:35:37.170 --> 00:35:44.070
+The similarity of texts to each other and the clustering and what you can see here is so on the left, we have the French.
+
+203
+00:35:44.670 --> 00:35:55.980
+The French corpus, and so this is the part of the corpus that that consists of three novels per author so it's just a subset of its of each corpus.
+
+204
+00:35:56.520 --> 00:36:07.710
+But what you see here is that the French for the French corpus our current standard methods baseline work perfectly so each cluster is a perfect set of three authors.
+
+205
+00:36:09.120 --> 00:36:20.070
+Whereas for the Romanian and i'm sorry to be using Romanian as the as the challenging language here again, the Romanian collection is.
+
+206
+00:36:20.550 --> 00:36:31.200
+A lot more tricky for the algorithm so we do have some clean nice author clusters, but we do have a lot of diverging clusters as well here's a UNESCO.
+
+207
+00:36:31.950 --> 00:36:41.160
+That is, you know, together with this other author, we have one single one up here that isn't with the others, you know lots of little problems and.
+
+208
+00:36:44.640 --> 00:36:54.300
+We can obviously compare this also with a look at this in a different way in a slightly more evaluative way, we can look at the performance.
+
+209
+00:36:54.870 --> 00:37:08.400
+of different algorithms at different parameters for different languages and we see let's pick the French one again, so the French one you see with this algorithm as data.
+
+210
+00:37:09.870 --> 00:37:11.700
+is pretty much perfect.
+
+211
+00:37:13.200 --> 00:37:20.550
+Starting starting around here with 350 words and it just stays there, so it works really well.
+
+212
+00:37:21.210 --> 00:37:36.120
+Whereas for the Romanian one if we pick out that one again it kind of plateaus at 0.7 70% accuracy, for all of the algorithms all the parameters that we tried and now the interesting questions, of course, why is that the case.
+
+213
+00:37:37.350 --> 00:37:42.270
+It could be that the Romanian corpus, in itself, is just much more difficult.
+
+214
+00:37:43.920 --> 00:37:59.730
+I suspect, for example, that the generic variety at the moment is less pronounced in the Romanian corpus meaning than in the French corpus, meaning that a lot more novels are similar in terms of genre and themes.
+
+215
+00:38:00.210 --> 00:38:15.630
+and would therefore be more difficult to tell apart for the organism, whereas the French corpus is really very diverse and even those office with with three novels are quite you know distinct so it might be an easier corpus, but it might also be that.
+
+216
+00:38:17.220 --> 00:38:27.990
+The algorithms that we have used up to now for English in 80% of the cases and then for German and French sometimes that they are just optimized or happened to work particularly well.
+
+217
+00:38:28.650 --> 00:38:44.670
+With languages other than Romanian and we really need to do more research to find to find out but it's a typical situation, so you really need a large Cobra to make these tests, more reliable than just this little set of 30 novels.
+
+218
+00:38:45.720 --> 00:38:55.740
+engineered to try a lot of different parameters and algorithms to really find out what's going on, and especially also, of course, look at the composition of the corporate that go into it.
+
+219
+00:38:56.910 --> 00:39:06.180
+And with that, I would like to conclude, very briefly, my initial question was what is l tech, and of course the key the obvious.
+
+220
+00:39:06.540 --> 00:39:15.900
+Answer it's a multilingual resource and that's why I centered this talk around not liberalism, but it's a lot more as well, I think it's really a learning opportunity.
+
+221
+00:39:16.440 --> 00:39:24.720
+For collaborative research because of corporates like that you can do on your own because you need knowledge of all those different literary traditions.
+
+222
+00:39:25.170 --> 00:39:37.710
+All the different you know taggers and language models so it has to be such a European endeavor, and so the Cross section has has been a perfect match, I think, for this kind of research.
+
+223
+00:39:38.850 --> 00:39:49.890
+I hope that LTE is becoming a rallying point for a European multilingual community of people interested in digital approaches approaches to literary history.
+
+224
+00:39:51.270 --> 00:40:01.710
+I hope as well that it is becoming a foundation for the development and evaluation and improvement of cross lingual methods and the examples that i've showed I think are.
+
+225
+00:40:02.580 --> 00:40:14.910
+Good examples or good pointers into that direction and, of course, I hope that it can be a start for history of European literature that would be truly digital multilingual and diverse Thank you.
+
+226
+00:40:19.080 --> 00:40:19.380
+yep.
+
+227
+00:40:22.620 --> 00:40:24.690
+All applaud since everybody else's.
+
+228
+00:40:24.960 --> 00:40:25.620
+yeah.
+
+229
+00:40:25.650 --> 00:40:27.540
+Thank you very much, thanks, James.
+
+230
+00:40:28.800 --> 00:40:34.320
+Amazingly interesting and a lot of work that has gone on in stature.
 
