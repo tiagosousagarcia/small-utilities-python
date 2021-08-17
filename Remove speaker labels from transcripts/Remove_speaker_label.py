@@ -19,7 +19,7 @@ def removeSpeakerLabel(fileName, *labelTuple):
     return text
 
 #Function takes the file name and at least one label to remove
-text = removeSpeakerLabel("GMT20210506-160513_Recording.transcript.vtt", "James Cummings: ", "Christof Sch?ch: ")
+text = removeSpeakerLabel("GMT20210527-180531_Recording.transcript.vtt", "James Cummings: ", "Diane Jakacki (she/her): ")
 
 #create new file and write clean subtitles to it
 final_file = open("clean_subtitles.vtt", 'w')
