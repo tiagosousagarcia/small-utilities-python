@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
+    <title>Text Gen Demo</title>
+</head>
+<body>
+    <h2>Text Generation webapp demo</h2>
+    <h3>Welcome to the text gen webapp demo</h3>
+    <div class="content">
+        <p>{{content}}</p>
+    </div>
+    <div class="form_input">
+        <form action="/" method="POST">
+            <textarea id="line" name="line" rows="4" cols="50" class="input_textbox">Start typing here...</textarea>
+            <button>Submit!</button>
+        </form>
+    </div>
+</body>
+</html>

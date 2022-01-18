@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+html {
+    width: 50%;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0.5rem 3rem;
+    font-size: 1.5rem;
+    color: #240707;
+}
+
+.input_textbox {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: #00000091;
+    padding: 1rem 0.5rem;
+    margin: 3rem;
+    height: 15rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: min-content;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    align-self: end;
+    margin-right: 3rem;
+    background-color: #5a5858cc;
+    color: #f1efef;
+    border: 1px solid rgba(19, 18, 18, 0.24);
+}
