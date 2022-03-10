@@ -21,9 +21,10 @@ def home():
         prompt = request.form['line']
         try:
             # result = generate_text(prompt, 50)
+            logging.info(f"Prompt: \'{prompt}\'")
             response, status = start_generation(prompt, API_ENDPOINT)
             if response == "":
-                app.logger.info("Response: ", status)
+                logging.info("Response: ", status)
                 response = "I'm sorry, something went wrong"
             pass
         except:
