@@ -7,15 +7,29 @@
     <title>Text Gen Demo</title>
 </head>
 <body>
+
+    <script>
+
+        function load_page(){
+            document.getElementById("loading-animation").style.display = "flex";
+            document.getElementById("content-box").style.display = "none";
+        }
+
+    </script>
+
     <h2>Creativity Engine demo</h2>
     <h3>Welcome to the Creativity Engine demo</h3>
-    <div class="content">
+    <div class="content" id="content-box">
         <p>{{content}}</p>
+    </div>
+    <div class = "loading" id="loading-animation" style = "display: none">
+        <!-- empty div for the loading element -->
+        <div class = "loader"></div>
     </div>
     <div class="form_input">
         <form action="/" method="POST">
             <textarea id="line" name="line" rows="4" cols="50" class="input_textbox">Start typing here...</textarea>
-            <button>Submit!</button>
+            <button onclick="load_page()">Submit!</button>
         </form>
     </div>
 </body>
