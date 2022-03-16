@@ -52,3 +52,24 @@ button {
     color: #f1efef;
     border: 1px solid rgba(19, 18, 18, 0.24);
 }
+
+/* LOADING ANIMATION */
+
+.loading {
+    justify-content: center;
+}
+
+.loader {
+    border: 1em solid #f3f3f3; /* Light grey */
+    border-top: 1em solid #3498db; /* Blue */
+    border-radius: 50%;
+    border-width: 0.5em;
+    width: 2em;
+    height: 2em;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
