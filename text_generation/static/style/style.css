@@ -1,40 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Lora&family=Pompiere&family=Special+Elite&display=swap');
+
 body, html {
     margin: 0;
     font-family: sans-serif;
 }
 
 html {
-    width: 50%;
+    width: 90%;
     margin: auto;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 0.1rem;
 }
 
 h2 {
-    font-size: 2rem;
-}
-
-h3 {
+    font-family: 'Pompiere', cursive;
     font-size: 1.2rem;
 }
 
+h3 {
+    font-family: 'Pompiere', cursive;
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+}
+
 .content {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0.5rem 3rem;
+    font-family: 'Lora', serif;
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-size: 1.5rem;
     color: #240707;
 }
 
+.form_input {
+    display: flex;
+    flex-direction: column;
+}
+
 .input_textbox {
-    font-family: monospace;
-    font-size: 1.2rem;
-    color: #00000091;
+    font-family: 'Inconsolata', monospace;
+    color: #000000db;
     padding: 1rem 0.5rem;
-    margin: 3rem;
-    height: 15rem;
+    resize: none;
+    overflow: scroll;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 10px;
+    border: none;
+    border-radius: 10px;
 }
 
 form {
@@ -43,11 +74,10 @@ form {
 }
 
 button {
-    width: min-content;
+    width: 100%;
     padding: 0.5rem 1rem;
-    font-size: 1.2rem;
+    margin-top: 1rem;
     align-self: end;
-    margin-right: 3rem;
     background-color: #5a5858cc;
     color: #f1efef;
     border: 1px solid rgba(19, 18, 18, 0.24);
@@ -73,3 +103,24 @@ button {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
+@media screen and (min-width:600px) {
+    html {
+        width: 50%;
+    }
+
+    .content {
+        margin: 0.5rem 3rem;
+    }
+
+    .input_textbox {
+        font-size: 1.2rem;
+        margin: 3rem;
+    }
+
+    button {
+        width: min-content;
+        margin-right: 3rem;
+    }
+    
+}

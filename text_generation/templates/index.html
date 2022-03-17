@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style/style.css') }}">
     <title>Text Gen Demo</title>
 </head>
-<body>
 
+<body>
     <script>
 
         function load_page(){
@@ -17,8 +17,12 @@
 
     </script>
 
-    <h2>Creativity Engine demo</h2>
-    <h3>Welcome to the Creativity Engine demo</h3>
+    <header>
+        <h1>Creativity Engine</h2>
+        <h2>Welcome to the Creativity Engine</h2>
+        <h3>v. 0.1</h3>
+    </header>
+
     <div class="content" id="content-box">
         <p>{{content}}</p>
     </div>
